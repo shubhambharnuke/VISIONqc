@@ -60,54 +60,54 @@ AWS is an optional extension. It is not required for the local academic demonstr
 
 ## 0.1 Confirm the implementation baseline
 
-- [ ] **0.1.1 [MANUAL]** Confirm that the project repository is the intended VisionQC repository.
-- [ ] **0.1.2 [ANTIGRAVITY]** Read `prd.md`, `design.md` and `techstack.md` completely.
-- [ ] **0.1.3 [ANTIGRAVITY]** Compare the three documents and list any conflicting requirements.
-- [ ] **0.1.4 [ANTIGRAVITY]** Create a technical decision record for every unresolved technology choice.
-- [ ] **0.1.5 [BOTH]** Select Python 3.12 as the initial project version, subject to dependency compatibility testing.
-- [ ] **0.1.6 [ANTIGRAVITY]** Verify the selected PyTorch, TorchVision, FastAPI and Airflow releases support the selected Python version.
-- [ ] **0.1.7 [ANTIGRAVITY]** Select one stable Tailwind CSS major version compatible with Next.js 16 and shadcn/ui.
-- [ ] **0.1.8 [ANTIGRAVITY]** Select one stable Airflow release and document its matching service architecture.
-- [ ] **0.1.9 [ANTIGRAVITY]** Select one stable PostgreSQL 18 container image.
-- [ ] **0.1.10 [ANTIGRAVITY]** Record all selected major and minor versions in `techstack.md`.
+- [x] **0.1.1 [MANUAL]** Confirm that the project repository is the intended VisionQC repository.
+- [x] **0.1.2 [ANTIGRAVITY]** Read `prd.md`, `design.md` and `techstack.md` completely.
+- [x] **0.1.3 [ANTIGRAVITY]** Compare the three documents and list any conflicting requirements.
+- [x] **0.1.4 [ANTIGRAVITY]** Create a technical decision record for every unresolved technology choice.
+- [x] **0.1.5 [BOTH]** Select Python 3.12 as the initial project version, subject to dependency compatibility testing.
+- [x] **0.1.6 [ANTIGRAVITY]** Verify the selected PyTorch, TorchVision, FastAPI and Airflow releases support the selected Python version.
+- [x] **0.1.7 [ANTIGRAVITY]** Select one stable Tailwind CSS major version compatible with Next.js 16 and shadcn/ui.
+- [x] **0.1.8 [ANTIGRAVITY]** Select one stable Airflow release and document its matching service architecture.
+- [x] **0.1.9 [ANTIGRAVITY]** Select one stable PostgreSQL 18 container image.
+- [x] **0.1.10 [ANTIGRAVITY]** Record all selected major and minor versions in `techstack.md`.
 
 **Verification:** No unresolved version choice should remain for the initial local implementation.
 
 ## 0.2 Prepare the local machine
 
-- [ ] **0.2.1 [MANUAL]** Install Git.
-- [ ] **0.2.2 [MANUAL]** Verify Git is available in the terminal.
-- [ ] **0.2.3 [MANUAL]** Install the selected Python version.
-- [ ] **0.2.4 [MANUAL]** Verify the Python version.
-- [ ] **0.2.5 [MANUAL]** Install Node.js LTS compatible with Next.js 16.
-- [ ] **0.2.6 [MANUAL]** Verify Node.js is available.
-- [ ] **0.2.7 [MANUAL]** Verify npm is available.
+- [x] **0.2.1 [MANUAL]** Install Git.
+- [x] **0.2.2 [MANUAL]** Verify Git is available in the terminal.
+- [x] **0.2.3 [MANUAL]** Install the selected Python version.
+- [x] **0.2.4 [MANUAL]** Verify the Python version.
+- [x] **0.2.5 [MANUAL]** Install Node.js LTS compatible with Next.js 16.
+- [x] **0.2.6 [MANUAL]** Verify Node.js is available.
+- [x] **0.2.7 [MANUAL]** Verify npm is available.
 - [ ] **0.2.8 [MANUAL]** Install Docker Desktop.
 - [ ] **0.2.9 [MANUAL]** Enable the required Docker virtualization or WSL 2 configuration.
 - [ ] **0.2.10 [MANUAL]** Start Docker Desktop.
 - [ ] **0.2.11 [MANUAL]** Verify Docker CLI access.
 - [ ] **0.2.12 [MANUAL]** Verify Docker Compose is available.
-- [ ] **0.2.13 [MANUAL]** Install VS Code or confirm the existing editor is ready.
-- [ ] **0.2.14 [MANUAL]** Install Antigravity and verify it can open the repository.
+- [x] **0.2.13 [MANUAL]** Install VS Code or confirm the existing editor is ready.
+- [x] **0.2.14 [MANUAL]** Install Antigravity and verify it can open the repository.
 - [ ] **0.2.15 [MANUAL]** Create or confirm the GitHub account and repository access.
 
 **Verification:** Python, Node.js, npm, Git, Docker, Docker Compose and Antigravity are accessible.
 
 ## 0.3 Establish the repository
 
-- [ ] **0.3.1 [ANTIGRAVITY]** Inspect the existing repository before modifying it.
-- [ ] **0.3.2 [ANTIGRAVITY]** Identify existing source files that must be preserved.
-- [ ] **0.3.3 [ANTIGRAVITY]** Create the agreed top-level project directories.
-- [ ] **0.3.4 [ANTIGRAVITY]** Create the root `.gitignore`.
-- [ ] **0.3.5 [ANTIGRAVITY]** Add Python cache exclusions to `.gitignore`.
-- [ ] **0.3.6 [ANTIGRAVITY]** Add Node.js build and dependency exclusions to `.gitignore`.
-- [ ] **0.3.7 [ANTIGRAVITY]** Add environment and secret-file exclusions to `.gitignore`.
-- [ ] **0.3.8 [ANTIGRAVITY]** Add model-weight and large-artifact exclusions to `.gitignore`.
-- [ ] **0.3.9 [ANTIGRAVITY]** Create the root `README.md`.
-- [ ] **0.3.10 [ANTIGRAVITY]** Create the root `.env.example`.
-- [ ] **0.3.11 [ANTIGRAVITY]** Create the initial root `todo.md` using this plan.
-- [ ] **0.3.12 [MANUAL]** Configure Git username and email.
-- [ ] **0.3.13 [MANUAL]** Create the initial Git commit.
+- [x] **0.3.1 [ANTIGRAVITY]** Inspect the existing repository before modifying it.
+- [x] **0.3.2 [ANTIGRAVITY]** Identify existing source files that must be preserved.
+- [x] **0.3.3 [ANTIGRAVITY]** Create the agreed top-level project directories.
+- [x] **0.3.4 [ANTIGRAVITY]** Create the root `.gitignore`.
+- [x] **0.3.5 [ANTIGRAVITY]** Add Python cache exclusions to `.gitignore`.
+- [x] **0.3.6 [ANTIGRAVITY]** Add Node.js build and dependency exclusions to `.gitignore`.
+- [x] **0.3.7 [ANTIGRAVITY]** Add environment and secret-file exclusions to `.gitignore`.
+- [x] **0.3.8 [ANTIGRAVITY]** Add model-weight and large-artifact exclusions to `.gitignore`.
+- [x] **0.3.9 [ANTIGRAVITY]** Create the root `README.md`.
+- [x] **0.3.10 [ANTIGRAVITY]** Create the root `.env.example`.
+- [x] **0.3.11 [ANTIGRAVITY]** Create the initial root `todo.md` using this plan.
+- [x] **0.3.12 [MANUAL]** Configure Git username and email.
+- [x] **0.3.13 [MANUAL]** Create the initial Git commit.
 - [ ] **0.3.14 [MANUAL]** Push the initial commit to GitHub.
 - [ ] **0.3.15 [MANUAL]** Confirm the repository is visible on GitHub.
 

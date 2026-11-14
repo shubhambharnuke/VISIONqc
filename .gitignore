@@ -1,0 +1,100 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+.npm
+.pnpm-debug.log*
+.yarn-debug.log*
+.yarn-error.log*
+node_modules/
+
+# Environment and Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# ML Models, weights and checkpoints
+*.pth
+*.pt
+*.onnx
+*.pkl
+*.h5
+ml/models/saved/*
+!ml/models/saved/.gitkeep
+
+# Data and Artifacts (handled by DVC)
+ml/data/raw/*
+!ml/data/raw/.gitkeep
+ml/data/split/*
+!ml/data/split/.gitkeep
+ml/data/augmented/*
+!ml/data/augmented/.gitkeep
+
+# Airflow local state
+airflow/logs/
+airflow/*.pid
+airflow/airflow.db
+airflow/airflow.cfg
+
+# MLflow local store
+mlruns/
+mlartifacts/
+
+# Testing & Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.ruff_cache/
+playwright-report/
+test-results/
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

@@ -1,0 +1,31 @@
+# VisionQC Preprocessing Configuration
+
+# Image Specifications
+image:
+  target_size: [224, 224] # Standard CNN / ResNet18 / EfficientNet-B0 resolution
+  channels: 3             # 3-channel grayscale repeat for transfer learning architectures
+  raw_dimensions: [512, 512]
+  color_mode: "grayscale"
+
+# Normalization parameters (ImageNet standards for transfer learning)
+normalization:
+  mean: [0.485, 0.456, 0.406]
+  std: [0.229, 0.224, 0.225]
+
+# Reproducible Data Split Policy
+split:
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+  random_seed: 42
+  stratified: true
+
+# Training-Only Data Augmentation Settings
+augmentation:
+  horizontal_flip: true
+  horizontal_flip_prob: 0.5
+  vertical_flip: true
+  vertical_flip_prob: 0.5
+  rotation_degrees: 15
+  brightness_jitter: 0.1
+  contrast_jitter: 0.1

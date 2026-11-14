@@ -174,51 +174,51 @@ These values must be checked against the actual downloaded dataset.
 
 ## 2.1 Exploratory data analysis
 
-- [ ] **2.1.1 [ANTIGRAVITY]** Create the EDA module.
-- [ ] **2.1.2 [ANTIGRAVITY]** Generate a class-distribution report.
-- [ ] **2.1.3 [ANTIGRAVITY]** Generate a sample image grid for both classes.
-- [ ] **2.1.4 [ANTIGRAVITY]** Calculate image brightness statistics.
-- [ ] **2.1.5 [ANTIGRAVITY]** Calculate image intensity distributions.
-- [ ] **2.1.6 [ANTIGRAVITY]** Calculate image contrast statistics.
-- [ ] **2.1.7 [ANTIGRAVITY]** Calculate image sharpness statistics.
-- [ ] **2.1.8 [ANTIGRAVITY]** Inspect image resolution consistency.
-- [ ] **2.1.9 [ANTIGRAVITY]** Generate an EDA report.
-- [ ] **2.1.10 [BOTH]** Review the EDA report and identify data-quality concerns.
+- [x] **2.1.1 [ANTIGRAVITY]** Create the EDA module.
+- [x] **2.1.2 [ANTIGRAVITY]** Generate a class-distribution report.
+- [x] **2.1.3 [ANTIGRAVITY]** Generate a sample image grid for both classes.
+- [x] **2.1.4 [ANTIGRAVITY]** Calculate image brightness statistics.
+- [x] **2.1.5 [ANTIGRAVITY]** Calculate image intensity distributions.
+- [x] **2.1.6 [ANTIGRAVITY]** Calculate image contrast statistics.
+- [x] **2.1.7 [ANTIGRAVITY]** Calculate image sharpness statistics.
+- [x] **2.1.8 [ANTIGRAVITY]** Inspect image resolution consistency.
+- [x] **2.1.9 [ANTIGRAVITY]** Generate an EDA report.
+- [x] **2.1.10 [BOTH]** Review the EDA report and identify data-quality concerns.
 
 ## 2.2 Define the preprocessing contract
 
-- [ ] **2.2.1 [ANTIGRAVITY]** Define the canonical input image format.
-- [ ] **2.2.2 [ANTIGRAVITY]** Define grayscale-to-model-channel conversion.
-- [ ] **2.2.3 [ANTIGRAVITY]** Define the image resizing strategy.
-- [ ] **2.2.4 [ANTIGRAVITY]** Compare candidate image resolutions for defect-detail preservation.
-- [ ] **2.2.5 [BOTH]** Select the training resolution based on the experiment results.
-- [ ] **2.2.6 [ANTIGRAVITY]** Define image normalization parameters.
-- [ ] **2.2.7 [ANTIGRAVITY]** Store preprocessing settings in `configs/preprocessing_config.yaml`.
-- [ ] **2.2.8 [ANTIGRAVITY]** Implement the shared preprocessing function.
-- [ ] **2.2.9 [ANTIGRAVITY]** Implement preprocessing tests.
-- [ ] **2.2.10 [ANTIGRAVITY]** Verify that training and inference use the same preprocessing contract.
+- [x] **2.2.1 [ANTIGRAVITY]** Define the canonical input image format.
+- [x] **2.2.2 [ANTIGRAVITY]** Define grayscale-to-model-channel conversion.
+- [x] **2.2.3 [ANTIGRAVITY]** Define the image resizing strategy.
+- [x] **2.2.4 [ANTIGRAVITY]** Compare candidate image resolutions for defect-detail preservation.
+- [x] **2.2.5 [BOTH]** Select the training resolution based on the experiment results.
+- [x] **2.2.6 [ANTIGRAVITY]** Define image normalization parameters.
+- [x] **2.2.7 [ANTIGRAVITY]** Store preprocessing settings in `configs/preprocessing_config.yaml`.
+- [x] **2.2.8 [ANTIGRAVITY]** Implement the shared preprocessing function.
+- [x] **2.2.9 [ANTIGRAVITY]** Implement preprocessing tests.
+- [x] **2.2.10 [ANTIGRAVITY]** Verify that training and inference use the same preprocessing contract.
 
 ## 2.3 Prepare reproducible data splits
 
-- [ ] **2.3.1 [ANTIGRAVITY]** Define the train, validation and test split policy.
-- [ ] **2.3.2 [ANTIGRAVITY]** Implement stratified splitting.
-- [ ] **2.3.3 [ANTIGRAVITY]** Configure a fixed random seed.
-- [ ] **2.3.4 [ANTIGRAVITY]** Add duplicate-leakage checks across splits.
-- [ ] **2.3.5 [ANTIGRAVITY]** Ensure the test split remains untouched during model selection.
-- [ ] **2.3.6 [ANTIGRAVITY]** Store split metadata and image references.
-- [ ] **2.3.7 [ANTIGRAVITY]** Version the split definition with DVC.
-- [ ] **2.3.8 [BOTH]** Run the split-generation workflow.
-- [ ] **2.3.9 [BOTH]** Verify class distributions across all splits.
+- [x] **2.3.1 [ANTIGRAVITY]** Define the train, validation and test split policy.
+- [x] **2.3.2 [ANTIGRAVITY]** Implement stratified splitting.
+- [x] **2.3.3 [ANTIGRAVITY]** Configure a fixed random seed.
+- [x] **2.3.4 [ANTIGRAVITY]** Add duplicate-leakage checks across splits.
+- [x] **2.3.5 [ANTIGRAVITY]** Ensure the test split remains untouched during model selection.
+- [x] **2.3.6 [ANTIGRAVITY]** Store split metadata and image references.
+- [x] **2.3.7 [ANTIGRAVITY]** Version the split definition with DVC.
+- [x] **2.3.8 [BOTH]** Run the split-generation workflow.
+- [x] **2.3.9 [BOTH]** Verify class distributions across all splits.
 
 ## 2.4 Implement augmentation
 
-- [ ] **2.4.1 [ANTIGRAVITY]** Define augmentation operations appropriate for industrial impeller images.
-- [ ] **2.4.2 [ANTIGRAVITY]** Implement the training augmentation pipeline.
-- [ ] **2.4.3 [ANTIGRAVITY]** Restrict augmentation to the training data.
-- [ ] **2.4.4 [ANTIGRAVITY]** Keep validation and test images unaugmented.
-- [ ] **2.4.5 [ANTIGRAVITY]** Add augmentation visualization.
-- [ ] **2.4.6 [ANTIGRAVITY]** Add tests that verify augmentation does not alter validation or test data.
-- [ ] **2.4.7 [BOTH]** Review augmented samples for unrealistic transformations.
+- [x] **2.4.1 [ANTIGRAVITY]** Define augmentation operations appropriate for industrial impeller images.
+- [x] **2.4.2 [ANTIGRAVITY]** Implement the training augmentation pipeline.
+- [x] **2.4.3 [ANTIGRAVITY]** Restrict augmentation to the training data.
+- [x] **2.4.4 [ANTIGRAVITY]** Keep validation and test images unaugmented.
+- [x] **2.4.5 [ANTIGRAVITY]** Add augmentation visualization.
+- [x] **2.4.6 [ANTIGRAVITY]** Add tests that verify augmentation does not alter validation or test data.
+- [x] **2.4.7 [BOTH]** Review augmented samples for unrealistic transformations.
 
 **Verification:** The preprocessing workflow is deterministic where required, reproducible, and shared by training and inference.
 

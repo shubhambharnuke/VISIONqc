@@ -1,0 +1,47 @@
+{
+  "classes": {
+    "ok": {
+      "count": 519,
+      "percentage": 39.92,
+      "mean_brightness": {
+        "mean": 148.95,
+        "std": 9.06
+      },
+      "pixel_std_dev": {
+        "mean": 62.45,
+        "std": 3.61
+      },
+      "contrast_range": {
+        "mean": 251.89,
+        "std": 3.21
+      },
+      "sharpness_laplacian": {
+        "mean": 142.66,
+        "std": 69.85
+      }
+    },
+    "defective": {
+      "count": 781,
+      "percentage": 60.08,
+      "mean_brightness": {
+        "mean": 138.56,
+        "std": 8.56
+      },
+      "pixel_std_dev": {
+        "mean": 59.78,
+        "std": 5.51
+      },
+      "contrast_range": {
+        "mean": 253.76,
+        "std": 2.33
+      },
+      "sharpness_laplacian": {
+        "mean": 166.7,
+        "std": 72.58
+      }
+    }
+  },
+  "overall": {
+    "total_images": 1300
+  }
+}

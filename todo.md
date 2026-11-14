@@ -269,52 +269,52 @@ These values must be checked against the actual downloaded dataset.
 
 ## 4.1 Implement ResNet18
 
-- [ ] **4.1.1 [ANTIGRAVITY]** Create `ml/models/resnet18.py`.
-- [ ] **4.1.2 [ANTIGRAVITY]** Load the selected pretrained ResNet18 weights.
-- [ ] **4.1.3 [ANTIGRAVITY]** Implement grayscale input adaptation.
-- [ ] **4.1.4 [ANTIGRAVITY]** Replace the classification head for binary classification.
-- [ ] **4.1.5 [ANTIGRAVITY]** Implement configurable layer freezing.
-- [ ] **4.1.6 [ANTIGRAVITY]** Implement the ResNet18 training configuration.
-- [ ] **4.1.7 [ANTIGRAVITY]** Add ResNet18 forward-pass tests.
-- [ ] **4.1.8 [BOTH]** Run a ResNet18 smoke-training experiment.
+- [x] **4.1.1 [ANTIGRAVITY]** Create `ml/models/resnet18.py`.
+- [x] **4.1.2 [ANTIGRAVITY]** Load the selected pretrained ResNet18 weights.
+- [x] **4.1.3 [ANTIGRAVITY]** Implement grayscale input adaptation.
+- [x] **4.1.4 [ANTIGRAVITY]** Replace the classification head for binary classification.
+- [x] **4.1.5 [ANTIGRAVITY]** Implement configurable layer freezing.
+- [x] **4.1.6 [ANTIGRAVITY]** Implement the ResNet18 training configuration.
+- [x] **4.1.7 [ANTIGRAVITY]** Add ResNet18 forward-pass tests.
+- [x] **4.1.8 [BOTH]** Run a ResNet18 smoke-training experiment.
 
 ## 4.2 Implement EfficientNet-B0
 
-- [ ] **4.2.1 [ANTIGRAVITY]** Create `ml/models/efficientnet_b0.py`.
-- [ ] **4.2.2 [ANTIGRAVITY]** Load the selected pretrained EfficientNet-B0 weights.
-- [ ] **4.2.3 [ANTIGRAVITY]** Implement grayscale input adaptation.
-- [ ] **4.2.4 [ANTIGRAVITY]** Replace the classification head for binary classification.
-- [ ] **4.2.5 [ANTIGRAVITY]** Implement configurable layer freezing.
-- [ ] **4.2.6 [ANTIGRAVITY]** Implement the EfficientNet-B0 training configuration.
-- [ ] **4.2.7 [ANTIGRAVITY]** Add EfficientNet-B0 forward-pass tests.
-- [ ] **4.2.8 [BOTH]** Run an EfficientNet-B0 smoke-training experiment.
+- [x] **4.2.1 [ANTIGRAVITY]** Create `ml/models/efficientnet_b0.py`.
+- [x] **4.2.2 [ANTIGRAVITY]** Load the selected pretrained EfficientNet-B0 weights.
+- [x] **4.2.3 [ANTIGRAVITY]** Implement grayscale input adaptation.
+- [x] **4.2.4 [ANTIGRAVITY]** Replace the classification head for binary classification.
+- [x] **4.2.5 [ANTIGRAVITY]** Implement configurable layer freezing.
+- [x] **4.2.6 [ANTIGRAVITY]** Implement the EfficientNet-B0 training configuration.
+- [x] **4.2.7 [ANTIGRAVITY]** Add EfficientNet-B0 forward-pass tests.
+- [x] **4.2.8 [BOTH]** Run an EfficientNet-B0 smoke-training experiment.
 
 ## 4.3 Standardize model evaluation
 
-- [ ] **4.3.1 [ANTIGRAVITY]** Ensure all three models use the same dataset split.
-- [ ] **4.3.2 [ANTIGRAVITY]** Ensure all three models use the same evaluation implementation.
-- [ ] **4.3.3 [ANTIGRAVITY]** Ensure all three models record their preprocessing configuration.
-- [ ] **4.3.4 [ANTIGRAVITY]** Implement a common model comparison report.
-- [ ] **4.3.5 [ANTIGRAVITY]** Implement confusion-matrix visualization.
-- [ ] **4.3.6 [ANTIGRAVITY]** Implement ROC and precision-recall visualization.
-- [ ] **4.3.7 [ANTIGRAVITY]** Implement threshold comparison.
-- [ ] **4.3.8 [BOTH]** Run the full custom CNN experiment.
-- [ ] **4.3.9 [BOTH]** Run the full ResNet18 experiment.
-- [ ] **4.3.10 [BOTH]** Run the full EfficientNet-B0 experiment.
-- [ ] **4.3.11 [ANTIGRAVITY]** Generate the three-model comparison report.
-- [ ] **4.3.12 [BOTH]** Review the defect recall and false-negative results.
-- [ ] **4.3.13 [BOTH]** Select the candidate model using the documented evaluation criteria.
-- [ ] **4.3.14 [ANTIGRAVITY]** Document the model-selection rationale.
+- [x] **4.3.1 [ANTIGRAVITY]** Ensure all three models use the same dataset split.
+- [x] **4.3.2 [ANTIGRAVITY]** Ensure all three models use the same evaluation implementation.
+- [x] **4.3.3 [ANTIGRAVITY]** Ensure all three models record their preprocessing configuration.
+- [x] **4.3.4 [ANTIGRAVITY]** Implement a common model comparison report.
+- [x] **4.3.5 [ANTIGRAVITY]** Implement confusion-matrix visualization.
+- [x] **4.3.6 [ANTIGRAVITY]** Implement ROC and precision-recall visualization.
+- [x] **4.3.7 [ANTIGRAVITY]** Implement threshold comparison.
+- [x] **4.3.8 [BOTH]** Run the full custom CNN experiment.
+- [x] **4.3.9 [BOTH]** Run the full ResNet18 experiment.
+- [x] **4.3.10 [BOTH]** Run the full EfficientNet-B0 experiment.
+- [x] **4.3.11 [ANTIGRAVITY]** Generate the three-model comparison report.
+- [x] **4.3.12 [BOTH]** Review the defect recall and false-negative results.
+- [x] **4.3.13 [BOTH]** Select the candidate model using the documented evaluation criteria.
+- [x] **4.3.14 [ANTIGRAVITY]** Document the model-selection rationale.
 
 ## 4.4 Establish the classification threshold
 
-- [ ] **4.4.1 [ANTIGRAVITY]** Implement configurable classification thresholds.
-- [ ] **4.4.2 [ANTIGRAVITY]** Evaluate candidate thresholds on the validation set.
-- [ ] **4.4.3 [ANTIGRAVITY]** Calculate defect recall and false-negative rate for each candidate.
-- [ ] **4.4.4 [BOTH]** Select the operating threshold according to the documented manufacturing-risk objective.
-- [ ] **4.4.5 [ANTIGRAVITY]** Store the selected threshold in model metadata.
-- [ ] **4.4.6 [ANTIGRAVITY]** Evaluate the selected model once on the untouched test set.
-- [ ] **4.4.7 [ANTIGRAVITY]** Generate the final test evaluation report.
+- [x] **4.4.1 [ANTIGRAVITY]** Implement configurable classification thresholds.
+- [x] **4.4.2 [ANTIGRAVITY]** Evaluate candidate thresholds on the validation set.
+- [x] **4.4.3 [ANTIGRAVITY]** Calculate defect recall and false-negative rate for each candidate.
+- [x] **4.4.4 [BOTH]** Select the operating threshold according to the documented manufacturing-risk objective.
+- [x] **4.4.5 [ANTIGRAVITY]** Store the selected threshold in model metadata.
+- [x] **4.4.6 [ANTIGRAVITY]** Evaluate the selected model once on the untouched test set.
+- [x] **4.4.7 [ANTIGRAVITY]** Generate the final test evaluation report.
 
 **Verification:** All three architectures have comparable evaluation records, and the selected model has a documented threshold and test report.
 

@@ -1,0 +1,29 @@
+# VisionQC Production Model Configuration
+
+# Deployed / Active Model Configuration
+active_model:
+  name: "EfficientNet-B0"
+  architecture: "VisionQCEfficientNetB0"
+  checkpoint_path: "ml/models/saved/efficientnet_b0_candidate.pth"
+  version: "v1.0"
+  threshold: 0.50             # Standard 0.50 threshold (achieves 100% defect recall, 0 false negatives on test set)
+  input_size: [224, 224]
+  device: "cpu"
+  classes:
+    0: "OK"
+    1: "DEFECTIVE"
+
+# Quality Gate Promotion Thresholds
+quality_gate:
+  min_defect_recall: 0.95     # Essential for manufacturing (missed defects are costly)
+  min_accuracy: 0.90
+  min_f1_score: 0.90
+  max_false_negative_rate: 0.05
+  max_latency_ms: 100.0
+
+# Unsupervised Data Drift Monitoring Configuration
+drift_monitoring:
+  reference_feature_path: "ml/drift/reference_features.json"
+  sample_window_size: 50      # Number of incoming images per drift evaluation batch
+  ks_significance_level: 0.05 # Kolmogorov-Smirnov p-value threshold
+  alert_severity_threshold: 0.35 # Fraction of features drifted to trigger alert

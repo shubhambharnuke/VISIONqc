@@ -361,42 +361,42 @@ These values must be checked against the actual downloaded dataset.
 
 ## 6.1 Prepare MLflow
 
-- [ ] **6.1.1 [MANUAL]** Confirm the local PostgreSQL service is available.
-- [ ] **6.1.2 [ANTIGRAVITY]** Create the `visionqc_mlflow` database configuration.
-- [ ] **6.1.3 [ANTIGRAVITY]** Create the MLflow service configuration.
-- [ ] **6.1.4 [ANTIGRAVITY]** Configure PostgreSQL as the MLflow backend store.
-- [ ] **6.1.5 [ANTIGRAVITY]** Configure persistent artifact storage.
-- [ ] **6.1.6 [ANTIGRAVITY]** Pin the MLflow version.
-- [ ] **6.1.7 [BOTH]** Start MLflow locally.
-- [ ] **6.1.8 [BOTH]** Open the MLflow UI.
-- [ ] **6.1.9 [BOTH]** Verify that MLflow can connect to PostgreSQL.
-- [ ] **6.1.10 [BOTH]** Verify that an artifact can be uploaded and retrieved.
+- [x] **6.1.1 [MANUAL]** Confirm the local PostgreSQL service is available.
+- [x] **6.1.2 [ANTIGRAVITY]** Create the `visionqc_mlflow` database configuration.
+- [x] **6.1.3 [ANTIGRAVITY]** Create the MLflow service configuration.
+- [x] **6.1.4 [ANTIGRAVITY]** Configure PostgreSQL as the MLflow backend store.
+- [x] **6.1.5 [ANTIGRAVITY]** Configure persistent artifact storage.
+- [x] **6.1.6 [ANTIGRAVITY]** Pin the MLflow version.
+- [x] **6.1.7 [BOTH]** Start MLflow locally.
+- [x] **6.1.8 [BOTH]** Open the MLflow UI.
+- [x] **6.1.9 [BOTH]** Verify that MLflow can connect to PostgreSQL.
+- [x] **6.1.10 [BOTH]** Verify that an artifact can be uploaded and retrieved.
 
 ## 6.2 Integrate training with MLflow
 
-- [ ] **6.2.1 [ANTIGRAVITY]** Implement the shared MLflow tracking utility.
-- [ ] **6.2.2 [ANTIGRAVITY]** Log experiment names.
-- [ ] **6.2.3 [ANTIGRAVITY]** Log model architecture parameters.
-- [ ] **6.2.4 [ANTIGRAVITY]** Log training hyperparameters.
-- [ ] **6.2.5 [ANTIGRAVITY]** Log dataset version references.
-- [ ] **6.2.6 [ANTIGRAVITY]** Log preprocessing configuration.
-- [ ] **6.2.7 [ANTIGRAVITY]** Log training metrics.
-- [ ] **6.2.8 [ANTIGRAVITY]** Log validation metrics.
-- [ ] **6.2.9 [ANTIGRAVITY]** Log evaluation plots.
-- [ ] **6.2.10 [ANTIGRAVITY]** Log model artifacts.
-- [ ] **6.2.11 [ANTIGRAVITY]** Add MLflow logging tests.
-- [ ] **6.2.12 [BOTH]** Run one experiment and verify its parameters, metrics and artifacts in the UI.
+- [x] **6.2.1 [ANTIGRAVITY]** Implement the shared MLflow tracking utility.
+- [x] **6.2.2 [ANTIGRAVITY]** Log experiment names.
+- [x] **6.2.3 [ANTIGRAVITY]** Log model architecture parameters.
+- [x] **6.2.4 [ANTIGRAVITY]** Log training hyperparameters.
+- [x] **6.2.5 [ANTIGRAVITY]** Log dataset version references.
+- [x] **6.2.6 [ANTIGRAVITY]** Log preprocessing configuration.
+- [x] **6.2.7 [ANTIGRAVITY]** Log training metrics.
+- [x] **6.2.8 [ANTIGRAVITY]** Log validation metrics.
+- [x] **6.2.9 [ANTIGRAVITY]** Log evaluation plots.
+- [x] **6.2.10 [ANTIGRAVITY]** Log model artifacts.
+- [x] **6.2.11 [ANTIGRAVITY]** Add MLflow logging tests.
+- [x] **6.2.12 [BOTH]** Run one experiment and verify its parameters, metrics and artifacts in the UI.
 
 ## 6.3 Configure model registry
 
-- [ ] **6.3.1 [ANTIGRAVITY]** Define the registered model naming convention.
-- [ ] **6.3.2 [ANTIGRAVITY]** Implement model registration.
-- [ ] **6.3.3 [ANTIGRAVITY]** Associate registered versions with their MLflow runs.
-- [ ] **6.3.4 [ANTIGRAVITY]** Store dataset and evaluation metadata with each version.
-- [ ] **6.3.5 [ANTIGRAVITY]** Implement model-version retrieval.
-- [ ] **6.3.6 [ANTIGRAVITY]** Implement model approval metadata.
-- [ ] **6.3.7 [ANTIGRAVITY]** Implement model deployment metadata.
-- [ ] **6.3.8 [BOTH]** Verify that multiple model versions can be registered and inspected.
+- [x] **6.3.1 [ANTIGRAVITY]** Define the registered model naming convention.
+- [x] **6.3.2 [ANTIGRAVITY]** Implement model registration.
+- [x] **6.3.3 [ANTIGRAVITY]** Associate registered versions with their MLflow runs.
+- [x] **6.3.4 [ANTIGRAVITY]** Store dataset and evaluation metadata with each version.
+- [x] **6.3.5 [ANTIGRAVITY]** Implement model-version retrieval.
+- [x] **6.3.6 [ANTIGRAVITY]** Implement model approval metadata.
+- [x] **6.3.7 [ANTIGRAVITY]** Implement model deployment metadata.
+- [x] **6.3.8 [BOTH]** Verify that multiple model versions can be registered and inspected.
 
 **Verification:** MLflow contains real training runs, their metrics, artifacts and model versions.
 

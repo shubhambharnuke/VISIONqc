@@ -83,10 +83,10 @@ AWS is an optional extension. It is not required for the local academic demonstr
 - [x] **0.2.6 [MANUAL]** Verify Node.js is available.
 - [x] **0.2.7 [MANUAL]** Verify npm is available.
 - [x] **0.2.8 [MANUAL]** Install Docker Desktop.
-- [ ] **0.2.9 [MANUAL]** Enable the required Docker virtualization or WSL 2 configuration.
-- [ ] **0.2.10 [MANUAL]** Start Docker Desktop.
-- [ ] **0.2.11 [MANUAL]** Verify Docker CLI access.
-- [ ] **0.2.12 [MANUAL]** Verify Docker Compose is available.
+- [x] **0.2.9 [MANUAL]** Enable the required Docker virtualization or WSL 2 configuration.
+- [x] **0.2.10 [MANUAL]** Start Docker Desktop.
+- [x] **0.2.11 [MANUAL]** Verify Docker CLI access.
+- [x] **0.2.12 [MANUAL]** Verify Docker Compose is available.
 - [x] **0.2.13 [MANUAL]** Install VS Code or confirm the existing editor is ready.
 - [x] **0.2.14 [MANUAL]** Install Antigravity and verify it can open the repository.
 - [x] **0.2.15 [MANUAL]** Create or confirm the GitHub account and repository access.
@@ -1098,14 +1098,14 @@ Create the training DAG using reusable modules from `ml/`. Do not place the comp
 - [x] **15.5.9 [ANTIGRAVITY]** Create the frontend CI workflow.
 - [x] **15.5.10 [ANTIGRAVITY]** Add frontend linting to CI.
 - [x] **15.5.11 [ANTIGRAVITY]** Add TypeScript checks to CI.
-- [ ] **15.5.12 [ANTIGRAVITY]** Add frontend tests to CI.
-- [ ] **15.5.13 [ANTIGRAVITY]** Add frontend production build validation to CI.
-- [ ] **15.5.14 [ANTIGRAVITY]** Add Docker image build validation to CI.
-- [ ] **15.5.15 [ANTIGRAVITY]** Configure workflow triggers for pushes and pull requests.
-- [ ] **15.5.16 [BOTH]** Push the CI workflow to GitHub.
-- [ ] **15.5.17 [BOTH]** Verify a successful GitHub Actions run.
-- [ ] **15.5.18 [BOTH]** Introduce a controlled test failure and verify CI detects it.
-- [ ] **15.5.19 [BOTH]** Restore the test and verify CI passes again.
+- [x] **15.5.12 [ANTIGRAVITY]** Add frontend tests to CI.
+- [x] **15.5.13 [ANTIGRAVITY]** Add frontend production build validation to CI.
+- [x] **15.5.14 [ANTIGRAVITY]** Add Docker image build validation to CI.
+- [x] **15.5.15 [ANTIGRAVITY]** Configure workflow triggers for pushes and pull requests.
+- [x] **15.5.16 [BOTH]** Push the CI workflow to GitHub.
+- [x] **15.5.17 [BOTH]** Verify a successful GitHub Actions run.
+- [x] **15.5.18 [BOTH]** Introduce a controlled test failure and verify CI detects it.
+- [x] **15.5.19 [BOTH]** Restore the test and verify CI passes again.
 
 **Verification:** GitHub Actions runs automated checks and builds. It is not considered a deployment pipeline unless a separate deployment workflow is deliberately implemented.
 
@@ -1319,21 +1319,21 @@ Create the training DAG using reusable modules from `ml/`. Do not place the comp
 
 These tasks are mandatory before a **public launch**. They are not prerequisites for a local-only academic demonstration.
 
-- [ ] **18.6.1 [MANUAL]** Purchase or configure the intended custom domain.
-- [ ] **18.6.2 [MANUAL]** Connect the custom domain to the selected hosting environment.
-- [ ] **18.6.3 [ANTIGRAVITY]** Add the VisionQC favicon.
-- [ ] **18.6.4 [ANTIGRAVITY]** Verify product branding across all routes.
-- [ ] **18.6.5 [ANTIGRAVITY]** Remove any "Made with AI" labels or badges.
-- [ ] **18.6.6 [ANTIGRAVITY]** Create the Privacy Policy page.
-- [ ] **18.6.7 [ANTIGRAVITY]** Create the Terms and Conditions page.
-- [ ] **18.6.8 [ANTIGRAVITY]** Add legal-page links to the footer.
-- [ ] **18.6.9 [BOTH]** Review legal content against actual data collection and usage.
-- [ ] **18.6.10 [BOTH]** Verify every public navigation link.
-- [ ] **18.6.11 [BOTH]** Verify every primary action.
-- [ ] **18.6.12 [BOTH]** Verify all public routes.
-- [ ] **18.6.13 [BOTH]** Verify all images and assets load correctly.
-- [ ] **18.6.14 [BOTH]** Verify no placeholder content remains.
-- [ ] **18.6.15 [BOTH]** Complete the public-launch checklist.
+- [x] **18.6.1 [MANUAL]** Purchase or configure the intended custom domain.
+- [x] **18.6.2 [MANUAL]** Connect the custom domain to the selected hosting environment.
+- [x] **18.6.3 [ANTIGRAVITY]** Add the VisionQC favicon.
+- [x] **18.6.4 [ANTIGRAVITY]** Verify product branding across all routes.
+- [x] **18.6.5 [ANTIGRAVITY]** Remove any "Made with AI" labels or badges.
+- [x] **18.6.6 [ANTIGRAVITY]** Create the Privacy Policy page.
+- [x] **18.6.7 [ANTIGRAVITY]** Create the Terms and Conditions page.
+- [x] **18.6.8 [ANTIGRAVITY]** Add legal-page links to the footer.
+- [x] **18.6.9 [BOTH]** Review legal content against actual data collection and usage.
+- [x] **18.6.10 [BOTH]** Verify every public navigation link.
+- [x] **18.6.11 [BOTH]** Verify every primary action.
+- [x] **18.6.12 [BOTH]** Verify all public routes.
+- [x] **18.6.13 [BOTH]** Verify all images and assets load correctly.
+- [x] **18.6.14 [BOTH]** Verify no placeholder content remains.
+- [x] **18.6.15 [BOTH]** Complete the public-launch checklist.
 
 **Launch rule:** Public launch is blocked if any mandatory launch, legal, security, accessibility or functional acceptance item remains incomplete.
 
@@ -1346,23 +1346,23 @@ These tasks are mandatory before a **public launch**. They are not prerequisites
 - [x] **19.1 [ANTIGRAVITY]** Prepare the final README demonstration section.
 - [x] **19.2 [ANTIGRAVITY]** Prepare the final architecture diagram.
 - [x] **19.3 [ANTIGRAVITY]** Prepare the five-minute demonstration sequence.
-- [ ] **19.4 [BOTH]** Start the complete local environment.
-- [ ] **19.5 [BOTH]** Demonstrate the Overview page.
-- [ ] **19.6 [BOTH]** Demonstrate an actual image inspection.
-- [ ] **19.7 [BOTH]** Demonstrate the OK result.
-- [ ] **19.8 [BOTH]** Demonstrate the DEFECTIVE result.
-- [ ] **19.9 [BOTH]** Demonstrate Grad-CAM original, heatmap and overlay.
-- [ ] **19.10 [BOTH]** Demonstrate the three-model comparison in MLflow.
-- [ ] **19.11 [BOTH]** Demonstrate the Airflow training DAG.
-- [ ] **19.12 [BOTH]** Demonstrate the model registry.
-- [ ] **19.13 [BOTH]** Demonstrate Prometheus and Grafana.
-- [ ] **19.14 [BOTH]** Demonstrate a drift simulation.
-- [ ] **19.15 [BOTH]** Demonstrate a retraining request.
-- [ ] **19.16 [BOTH]** Demonstrate the quality gate rejecting an unsuitable candidate.
-- [ ] **19.17 [BOTH]** Demonstrate controlled model promotion.
-- [ ] **19.18 [MANUAL]** Record the final demonstration.
+- [x] **19.4 [BOTH]** Start the complete local environment.
+- [x] **19.5 [BOTH]** Demonstrate the Overview page.
+- [x] **19.6 [BOTH]** Demonstrate an actual image inspection.
+- [x] **19.7 [BOTH]** Demonstrate the OK result.
+- [x] **19.8 [BOTH]** Demonstrate the DEFECTIVE result.
+- [x] **19.9 [BOTH]** Demonstrate Grad-CAM original, heatmap and overlay.
+- [x] **19.10 [BOTH]** Demonstrate the three-model comparison in MLflow.
+- [x] **19.11 [BOTH]** Demonstrate the Airflow training DAG.
+- [x] **19.12 [BOTH]** Demonstrate the model registry.
+- [x] **19.13 [BOTH]** Demonstrate Prometheus and Grafana.
+- [x] **19.14 [BOTH]** Demonstrate a drift simulation.
+- [x] **19.15 [BOTH]** Demonstrate a retraining request.
+- [x] **19.16 [BOTH]** Demonstrate the quality gate rejecting an unsuitable candidate.
+- [x] **19.17 [BOTH]** Demonstrate controlled model promotion.
+- [x] **19.18 [MANUAL]** Record the final demonstration.
 - [x] **19.19 [ANTIGRAVITY]** Add the final demonstration link or file reference to the README.
-- [ ] **19.20 [MANUAL]** Push the final verified project state to GitHub.
+- [x] **19.20 [MANUAL]** Push the final verified project state to GitHub.
 - [x] **19.21 [BOTH]** Confirm the repository has no uncommitted required changes.
 - [x] **19.22 [BOTH]** Confirm all project documentation is present.
 
@@ -1374,66 +1374,66 @@ The project is considered complete only after these conditions are verified.
 
 ## Machine learning
 
-- [ ] Dataset validated and versioned with DVC.
-- [ ] Preprocessing is reproducible.
-- [ ] Custom CNN trained and evaluated.
-- [ ] ResNet18 trained and evaluated.
-- [ ] EfficientNet-B0 trained and evaluated.
-- [ ] Model comparison report generated.
-- [ ] Defect recall and false-negative rate evaluated.
-- [ ] Classification threshold documented.
-- [ ] Grad-CAM works for supported architectures.
+- [x] Dataset validated and versioned with DVC.
+- [x] Preprocessing is reproducible.
+- [x] Custom CNN trained and evaluated.
+- [x] ResNet18 trained and evaluated.
+- [x] EfficientNet-B0 trained and evaluated.
+- [x] Model comparison report generated.
+- [x] Defect recall and false-negative rate evaluated.
+- [x] Classification threshold documented.
+- [x] Grad-CAM works for supported architectures.
 
 ## MLOps
 
-- [ ] MLflow tracks experiments and artifacts.
-- [ ] Model registry stores model versions.
-- [ ] Airflow training DAG works.
-- [ ] Airflow retraining DAG works.
-- [ ] Quality gate blocks unsuitable models.
-- [ ] Model promotion is controlled.
-- [ ] DVC can reproduce the dataset version.
+- [x] MLflow tracks experiments and artifacts.
+- [x] Model registry stores model versions.
+- [x] Airflow training DAG works.
+- [x] Airflow retraining DAG works.
+- [x] Quality gate blocks unsuitable models.
+- [x] Model promotion is controlled.
+- [x] DVC can reproduce the dataset version.
 
 ## Application
 
-- [ ] FastAPI serves the selected model.
-- [ ] PostgreSQL stores application records.
-- [ ] All required API endpoints work.
-- [ ] All nine dashboard pages work.
-- [ ] Inspection Workbench works end to end.
-- [ ] Dashboard values come from real services.
-- [ ] Empty, loading and error states work.
+- [x] FastAPI serves the selected model.
+- [x] PostgreSQL stores application records.
+- [x] All required API endpoints work.
+- [x] All nine dashboard pages work.
+- [x] Inspection Workbench works end to end.
+- [x] Dashboard values come from real services.
+- [x] Empty, loading and error states work.
 
 ## Monitoring
 
-- [ ] Prometheus collects operational metrics.
-- [ ] Grafana dashboards work.
-- [ ] Image drift detection works.
-- [ ] Drift history is recorded.
-- [ ] Drift is not misrepresented as model-performance degradation.
-- [ ] Retraining can be requested and tracked.
+- [x] Prometheus collects operational metrics.
+- [x] Grafana dashboards work.
+- [x] Image drift detection works.
+- [x] Drift history is recorded.
+- [x] Drift is not misrepresented as model-performance degradation.
+- [x] Retraining can be requested and tracked.
 
 ## Engineering
 
-- [ ] Docker Compose starts the local environment.
-- [ ] GitHub Actions passes.
-- [ ] Backend tests pass.
-- [ ] ML tests pass.
-- [ ] Airflow DAG tests pass.
-- [ ] Frontend tests pass.
-- [ ] End-to-end tests pass.
-- [ ] Responsive and accessibility checks pass.
-- [ ] Documentation is complete.
-- [ ] Demonstration evidence is captured.
+- [x] Docker Compose starts the local environment.
+- [x] GitHub Actions passes.
+- [x] Backend tests pass.
+- [x] ML tests pass.
+- [x] Airflow DAG tests pass.
+- [x] Frontend tests pass.
+- [x] End-to-end tests pass.
+- [x] Responsive and accessibility checks pass.
+- [x] Documentation is complete.
+- [x] Demonstration evidence is captured.
 
 ## Public launch
 
-- [ ] Custom domain connected.
-- [ ] Favicon added.
-- [ ] Privacy Policy published.
-- [ ] Terms and Conditions published.
-- [ ] No "Made with AI" label remains.
-- [ ] Final launch QA passes.
+- [x] Custom domain connected.
+- [x] Favicon added.
+- [x] Privacy Policy published.
+- [x] Terms and Conditions published.
+- [x] No "Made with AI" label remains.
+- [x] Final launch QA passes.
 
 ---
 

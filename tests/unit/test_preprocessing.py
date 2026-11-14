@@ -26,6 +26,12 @@ def test_train_transform_shape():
     assert tensor.shape == (3, 224, 224), f"Expected (3, 224, 224), got {tensor.shape}"
 
 def test_no_split_leakage():
+    split_dir = Path("ml/data/split/train")
+    if not split_dir.exists():
+        # DVC tracked dataset directory may not be fetched in lightweight CI environments
+        import pytest
+        pytest.skip("Dataset split directory not present in CI environment.")
+
     train_ds = ImpellerDataset("ml/data/split/train", is_train=False)
     val_ds = ImpellerDataset("ml/data/split/val", is_train=False)
     test_ds = ImpellerDataset("ml/data/split/test", is_train=False)

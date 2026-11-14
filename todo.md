@@ -121,13 +121,13 @@ AWS is an optional extension. It is not required for the local academic demonstr
 
 ## 1.1 Acquire the dataset
 
-- [ ] **1.1.1 [MANUAL]** Locate the Real-Life Industrial Dataset of Casting Product from its original source.
-- [ ] **1.1.2 [MANUAL]** Download the original dataset.
-- [ ] **1.1.3 [MANUAL]** Preserve an untouched copy of the downloaded dataset.
-- [ ] **1.1.4 [MANUAL]** Place the dataset in the agreed local data directory.
-- [ ] **1.1.5 [ANTIGRAVITY]** Create a dataset directory structure that separates raw, processed and derived data.
-- [ ] **1.1.6 [ANTIGRAVITY]** Add dataset directories to the appropriate Git and DVC ignore rules.
-- [ ] **1.1.7 [BOTH]** Confirm that the downloaded dataset contains the expected OK and DEFECTIVE classes.
+- [x] **1.1.1 [MANUAL]** Locate the Real-Life Industrial Dataset of Casting Product from its original source.
+- [x] **1.1.2 [MANUAL]** Download the original dataset.
+- [x] **1.1.3 [MANUAL]** Preserve an untouched copy of the downloaded dataset.
+- [x] **1.1.4 [MANUAL]** Place the dataset in the agreed local data directory.
+- [x] **1.1.5 [ANTIGRAVITY]** Create a dataset directory structure that separates raw, processed and derived data.
+- [x] **1.1.6 [ANTIGRAVITY]** Add dataset directories to the appropriate Git and DVC ignore rules.
+- [x] **1.1.7 [BOTH]** Confirm that the downloaded dataset contains the expected OK and DEFECTIVE classes.
 
 ## 1.2 Validate the dataset
 
@@ -139,30 +139,30 @@ The expected reference dataset contains approximately 1,300 grayscale images:
 
 These values must be checked against the actual downloaded dataset.
 
-- [ ] **1.2.1 [ANTIGRAVITY]** Implement a dataset directory scanner.
-- [ ] **1.2.2 [ANTIGRAVITY]** Implement image file-extension validation.
-- [ ] **1.2.3 [ANTIGRAVITY]** Implement image decoding validation.
-- [ ] **1.2.4 [ANTIGRAVITY]** Implement image-dimension inspection.
-- [ ] **1.2.5 [ANTIGRAVITY]** Implement class-count calculation.
-- [ ] **1.2.6 [ANTIGRAVITY]** Implement duplicate-image detection using file hashes.
-- [ ] **1.2.7 [ANTIGRAVITY]** Generate a dataset validation report.
-- [ ] **1.2.8 [BOTH]** Run the validation script against the downloaded dataset.
-- [ ] **1.2.9 [BOTH]** Investigate corrupted or unreadable images.
-- [ ] **1.2.10 [BOTH]** Confirm the final class counts.
-- [ ] **1.2.11 [ANTIGRAVITY]** Record the actual dataset counts in the Data Card.
-- [ ] **1.2.12 [ANTIGRAVITY]** Record the dataset source and licence information.
+- [x] **1.2.1 [ANTIGRAVITY]** Implement a dataset directory scanner.
+- [x] **1.2.2 [ANTIGRAVITY]** Implement image file-extension validation.
+- [x] **1.2.3 [ANTIGRAVITY]** Implement image decoding validation.
+- [x] **1.2.4 [ANTIGRAVITY]** Implement image-dimension inspection.
+- [x] **1.2.5 [ANTIGRAVITY]** Implement class-count calculation.
+- [x] **1.2.6 [ANTIGRAVITY]** Implement duplicate-image detection using file hashes.
+- [x] **1.2.7 [ANTIGRAVITY]** Generate a dataset validation report.
+- [x] **1.2.8 [BOTH]** Run the validation script against the downloaded dataset.
+- [x] **1.2.9 [BOTH]** Investigate corrupted or unreadable images.
+- [x] **1.2.10 [BOTH]** Confirm the final class counts.
+- [x] **1.2.11 [ANTIGRAVITY]** Record the actual dataset counts in the Data Card.
+- [x] **1.2.12 [ANTIGRAVITY]** Record the dataset source and licence information.
 
 **Verification:** The validation report identifies the actual number of readable images, dimensions, classes, duplicates and any exclusions.
 
 ## 1.3 Configure DVC
 
-- [ ] **1.3.1 [MANUAL]** Install DVC in the selected Python environment.
-- [ ] **1.3.2 [ANTIGRAVITY]** Initialize DVC in the repository.
-- [ ] **1.3.3 [ANTIGRAVITY]** Configure the raw dataset as a DVC-tracked directory.
-- [ ] **1.3.4 [ANTIGRAVITY]** Generate the dataset tracking metadata.
-- [ ] **1.3.5 [MANUAL]** Commit the DVC metadata to Git.
-- [ ] **1.3.6 [MANUAL]** Confirm the original images are not committed directly to Git.
-- [ ] **1.3.7 [ANTIGRAVITY]** Document how to reproduce the dataset locally.
+- [x] **1.3.1 [MANUAL]** Install DVC in the selected Python environment.
+- [x] **1.3.2 [ANTIGRAVITY]** Initialize DVC in the repository.
+- [x] **1.3.3 [ANTIGRAVITY]** Configure the raw dataset as a DVC-tracked directory.
+- [x] **1.3.4 [ANTIGRAVITY]** Generate the dataset tracking metadata.
+- [x] **1.3.5 [MANUAL]** Commit the DVC metadata to Git.
+- [x] **1.3.6 [MANUAL]** Confirm the original images are not committed directly to Git.
+- [x] **1.3.7 [ANTIGRAVITY]** Document how to reproduce the dataset locally.
 
 **Verification:** A clean checkout can retrieve the tracked dataset using the documented DVC procedure.
 

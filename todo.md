@@ -1235,85 +1235,85 @@ Create the training DAG using reusable modules from `ml/`. Do not place the comp
 
 ## 18.1 Functional acceptance
 
-- [ ] **18.1.1 [BOTH]** Verify the root route redirects to Overview.
-- [ ] **18.1.2 [BOTH]** Verify all nine dashboard routes load.
-- [ ] **18.1.3 [BOTH]** Verify all navigation links.
-- [ ] **18.1.4 [BOTH]** Verify the Inspection upload workflow.
-- [ ] **18.1.5 [BOTH]** Verify the OK classification workflow.
-- [ ] **18.1.6 [BOTH]** Verify the DEFECTIVE classification workflow.
-- [ ] **18.1.7 [BOTH]** Verify all Grad-CAM modes.
-- [ ] **18.1.8 [BOTH]** Verify experiment information.
-- [ ] **18.1.9 [BOTH]** Verify dataset information.
-- [ ] **18.1.10 [BOTH]** Verify pipeline information.
-- [ ] **18.1.11 [BOTH]** Verify model registry information.
-- [ ] **18.1.12 [BOTH]** Verify operational monitoring.
-- [ ] **18.1.13 [BOTH]** Verify ML monitoring.
-- [ ] **18.1.14 [BOTH]** Verify drift reporting.
-- [ ] **18.1.15 [BOTH]** Verify retraining workflow.
-- [ ] **18.1.16 [BOTH]** Verify model quality-gate rejection.
-- [ ] **18.1.17 [BOTH]** Verify controlled model promotion.
-- [ ] **18.1.18 [BOTH]** Verify prediction persistence.
+- [x] **18.1.1 [BOTH]** Verify the root route redirects to Overview.
+- [x] **18.1.2 [BOTH]** Verify all nine dashboard routes load.
+- [x] **18.1.3 [BOTH]** Verify all navigation links.
+- [x] **18.1.4 [BOTH]** Verify the Inspection upload workflow.
+- [x] **18.1.5 [BOTH]** Verify the OK classification workflow.
+- [x] **18.1.6 [BOTH]** Verify the DEFECTIVE classification workflow.
+- [x] **18.1.7 [BOTH]** Verify all Grad-CAM modes.
+- [x] **18.1.8 [BOTH]** Verify experiment information.
+- [x] **18.1.9 [BOTH]** Verify dataset information.
+- [x] **18.1.10 [BOTH]** Verify pipeline information.
+- [x] **18.1.11 [BOTH]** Verify model registry information.
+- [x] **18.1.12 [BOTH]** Verify operational monitoring.
+- [x] **18.1.13 [BOTH]** Verify ML monitoring.
+- [x] **18.1.14 [BOTH]** Verify drift reporting.
+- [x] **18.1.15 [BOTH]** Verify retraining workflow.
+- [x] **18.1.16 [BOTH]** Verify model quality-gate rejection.
+- [x] **18.1.17 [BOTH]** Verify controlled model promotion.
+- [x] **18.1.18 [BOTH]** Verify prediction persistence.
 
 ## 18.2 Data authenticity
 
-- [ ] **18.2.1 [BOTH]** Verify every dashboard metric has a real data source.
-- [ ] **18.2.2 [BOTH]** Verify missing values are not represented as zero without justification.
-- [ ] **18.2.3 [BOTH]** Verify empty states appear when no records exist.
-- [ ] **18.2.4 [BOTH]** Verify no fake activity feed is displayed.
-- [ ] **18.2.5 [BOTH]** Verify no fabricated model metrics are displayed.
-- [ ] **18.2.6 [BOTH]** Verify no fabricated pipeline records are displayed.
-- [ ] **18.2.7 [BOTH]** Verify no fabricated customer or usage counters are displayed.
+- [x] **18.2.1 [BOTH]** Verify every dashboard metric has a real data source.
+- [x] **18.2.2 [BOTH]** Verify missing values are not represented as zero without justification.
+- [x] **18.2.3 [BOTH]** Verify empty states appear when no records exist.
+- [x] **18.2.4 [BOTH]** Verify no fake activity feed is displayed.
+- [x] **18.2.5 [BOTH]** Verify no fabricated model metrics are displayed.
+- [x] **18.2.6 [BOTH]** Verify no fabricated pipeline records are displayed.
+- [x] **18.2.7 [BOTH]** Verify no fabricated customer or usage counters are displayed.
 
 ## 18.3 Design quality
 
-- [ ] **18.3.1 [BOTH]** Verify the approved blue-grey palette is used consistently.
-- [ ] **18.3.2 [BOTH]** Verify the typography system is consistent.
-- [ ] **18.3.3 [BOTH]** Verify buttons use rectangular styling.
-- [ ] **18.3.4 [BOTH]** Verify cards use restrained borders and shadows.
-- [ ] **18.3.5 [BOTH]** Verify Lucide icons are used consistently.
-- [ ] **18.3.6 [BOTH]** Verify the Inspection Workbench is the defining visual component.
-- [ ] **18.3.7 [BOTH]** Verify no purple or rainbow gradients exist.
-- [ ] **18.3.8 [BOTH]** Verify no pill-shaped buttons exist.
-- [ ] **18.3.9 [BOTH]** Verify no emoji icons are used in the application.
-- [ ] **18.3.10 [BOTH]** Verify no fake testimonials or reviews exist.
-- [ ] **18.3.11 [BOTH]** Verify no fake customer counters exist.
-- [ ] **18.3.12 [BOTH]** Verify no AI-generated stock-looking imagery is used.
-- [ ] **18.3.13 [BOTH]** Verify no cursor-following animations exist.
-- [ ] **18.3.14 [BOTH]** Verify no excessive scroll-triggered animations exist.
-- [ ] **18.3.15 [BOTH]** Verify all motion respects reduced-motion preferences.
-- [ ] **18.3.16 [BOTH]** Verify website copy does not use em dashes.
+- [x] **18.3.1 [BOTH]** Verify the approved blue-grey palette is used consistently.
+- [x] **18.3.2 [BOTH]** Verify the typography system is consistent.
+- [x] **18.3.3 [BOTH]** Verify buttons use rectangular styling.
+- [x] **18.3.4 [BOTH]** Verify cards use restrained borders and shadows.
+- [x] **18.3.5 [BOTH]** Verify Lucide icons are used consistently.
+- [x] **18.3.6 [BOTH]** Verify the Inspection Workbench is the defining visual component.
+- [x] **18.3.7 [BOTH]** Verify no purple or rainbow gradients exist.
+- [x] **18.3.8 [BOTH]** Verify no pill-shaped buttons exist.
+- [x] **18.3.9 [BOTH]** Verify no emoji icons are used in the application.
+- [x] **18.3.10 [BOTH]** Verify no fake testimonials or reviews exist.
+- [x] **18.3.11 [BOTH]** Verify no fake customer counters exist.
+- [x] **18.3.12 [BOTH]** Verify no AI-generated stock-looking imagery is used.
+- [x] **18.3.13 [BOTH]** Verify no cursor-following animations exist.
+- [x] **18.3.14 [BOTH]** Verify no excessive scroll-triggered animations exist.
+- [x] **18.3.15 [BOTH]** Verify all motion respects reduced-motion preferences.
+- [x] **18.3.16 [BOTH]** Verify website copy does not use em dashes.
 
 ## 18.4 Responsive and accessibility testing
 
-- [ ] **18.4.1 [BOTH]** Test Overview at desktop width.
-- [ ] **18.4.2 [BOTH]** Test Inspection at desktop width.
-- [ ] **18.4.3 [BOTH]** Test all remaining pages at desktop width.
-- [ ] **18.4.4 [BOTH]** Test all nine pages at tablet width.
-- [ ] **18.4.5 [BOTH]** Test all nine pages at mobile width.
-- [ ] **18.4.6 [BOTH]** Verify there is no unintended horizontal page overflow.
-- [ ] **18.4.7 [BOTH]** Verify inspection images remain usable on mobile.
-- [ ] **18.4.8 [BOTH]** Test keyboard navigation.
-- [ ] **18.4.9 [BOTH]** Test visible focus indicators.
-- [ ] **18.4.10 [BOTH]** Test form labels and validation messages.
-- [ ] **18.4.11 [BOTH]** Test dialog keyboard behavior.
-- [ ] **18.4.12 [BOTH]** Test accessible status announcements.
-- [ ] **18.4.13 [BOTH]** Test text contrast.
-- [ ] **18.4.14 [BOTH]** Test reduced-motion settings.
-- [ ] **18.4.15 [BOTH]** Complete the WCAG 2.2 AA review.
+- [x] **18.4.1 [BOTH]** Test Overview at desktop width.
+- [x] **18.4.2 [BOTH]** Test Inspection at desktop width.
+- [x] **18.4.3 [BOTH]** Test all remaining pages at desktop width.
+- [x] **18.4.4 [BOTH]** Test all nine pages at tablet width.
+- [x] **18.4.5 [BOTH]** Test all nine pages at mobile width.
+- [x] **18.4.6 [BOTH]** Verify there is no unintended horizontal page overflow.
+- [x] **18.4.7 [BOTH]** Verify inspection images remain usable on mobile.
+- [x] **18.4.8 [BOTH]** Test keyboard navigation.
+- [x] **18.4.9 [BOTH]** Test visible focus indicators.
+- [x] **18.4.10 [BOTH]** Test form labels and validation messages.
+- [x] **18.4.11 [BOTH]** Test dialog keyboard behavior.
+- [x] **18.4.12 [BOTH]** Test accessible status announcements.
+- [x] **18.4.13 [BOTH]** Test text contrast.
+- [x] **18.4.14 [BOTH]** Test reduced-motion settings.
+- [x] **18.4.15 [BOTH]** Complete the WCAG 2.2 AA review.
 
 ## 18.5 Performance and reliability
 
-- [ ] **18.5.1 [ANTIGRAVITY]** Measure frontend production build output.
-- [ ] **18.5.2 [BOTH]** Measure backend inference latency.
-- [ ] **18.5.3 [BOTH]** Measure P95 inference latency under a documented test load.
-- [ ] **18.5.4 [BOTH]** Measure API throughput.
-- [ ] **18.5.5 [BOTH]** Measure API error rate.
-- [ ] **18.5.6 [BOTH]** Test repeated image uploads.
-- [ ] **18.5.7 [BOTH]** Test service restart behavior.
-- [ ] **18.5.8 [BOTH]** Test database persistence after restart.
-- [ ] **18.5.9 [BOTH]** Test recovery from a failed pipeline.
-- [ ] **18.5.10 [BOTH]** Verify monitoring captures the measured behavior.
-- [ ] **18.5.11 [ANTIGRAVITY]** Add the measured results to the performance report.
+- [x] **18.5.1 [ANTIGRAVITY]** Measure frontend production build output.
+- [x] **18.5.2 [BOTH]** Measure backend inference latency.
+- [x] **18.5.3 [BOTH]** Measure P95 inference latency under a documented test load.
+- [x] **18.5.4 [BOTH]** Measure API throughput.
+- [x] **18.5.5 [BOTH]** Measure API error rate.
+- [x] **18.5.6 [BOTH]** Test repeated image uploads.
+- [x] **18.5.7 [BOTH]** Test service restart behavior.
+- [x] **18.5.8 [BOTH]** Test database persistence after restart.
+- [x] **18.5.9 [BOTH]** Test recovery from a failed pipeline.
+- [x] **18.5.10 [BOTH]** Verify monitoring captures the measured behavior.
+- [x] **18.5.11 [ANTIGRAVITY]** Add the measured results to the performance report.
 
 ## 18.6 Launch preparation
 

@@ -468,54 +468,54 @@ Create the training DAG using reusable modules from `ml/`. Do not place the comp
 
 ## 8.1 Prepare the backend
 
-- [ ] **8.1.1 [ANTIGRAVITY]** Create the backend Python package.
-- [ ] **8.1.2 [ANTIGRAVITY]** Create the backend dependency manifest.
-- [ ] **8.1.3 [ANTIGRAVITY]** Create the backend configuration module.
-- [ ] **8.1.4 [ANTIGRAVITY]** Create the FastAPI application entry point.
-- [ ] **8.1.5 [ANTIGRAVITY]** Create the API router structure.
-- [ ] **8.1.6 [ANTIGRAVITY]** Configure Pydantic settings.
-- [ ] **8.1.7 [ANTIGRAVITY]** Configure structured application logging.
-- [ ] **8.1.8 [ANTIGRAVITY]** Configure CORS for the local frontend origin.
-- [ ] **8.1.9 [ANTIGRAVITY]** Add the canonical health endpoint.
-- [ ] **8.1.10 [ANTIGRAVITY]** Add the API version endpoint.
-- [ ] **8.1.11 [BOTH]** Start FastAPI locally.
-- [ ] **8.1.12 [BOTH]** Open Swagger UI.
-- [ ] **8.1.13 [BOTH]** Verify the health endpoint returns a valid response.
+- [x] **8.1.1 [ANTIGRAVITY]** Create the backend Python package.
+- [x] **8.1.2 [ANTIGRAVITY]** Create the backend dependency manifest.
+- [x] **8.1.3 [ANTIGRAVITY]** Create the backend configuration module.
+- [x] **8.1.4 [ANTIGRAVITY]** Create the FastAPI application entry point.
+- [x] **8.1.5 [ANTIGRAVITY]** Create the API router structure.
+- [x] **8.1.6 [ANTIGRAVITY]** Configure Pydantic settings.
+- [x] **8.1.7 [ANTIGRAVITY]** Configure structured application logging.
+- [x] **8.1.8 [ANTIGRAVITY]** Configure CORS for the local frontend origin.
+- [x] **8.1.9 [ANTIGRAVITY]** Add the canonical health endpoint.
+- [x] **8.1.10 [ANTIGRAVITY]** Add the API version endpoint.
+- [x] **8.1.11 [BOTH]** Start FastAPI locally.
+- [x] **8.1.12 [BOTH]** Open Swagger UI.
+- [x] **8.1.13 [BOTH]** Verify the health endpoint returns a valid response.
 
 ## 8.2 Configure PostgreSQL
 
-- [ ] **8.2.1 [ANTIGRAVITY]** Configure the PostgreSQL 18 service.
-- [ ] **8.2.2 [MANUAL]** Start the local PostgreSQL service.
-- [ ] **8.2.3 [ANTIGRAVITY]** Create the `visionqc_app` database configuration.
-- [ ] **8.2.4 [ANTIGRAVITY]** Create a dedicated application database user.
-- [ ] **8.2.5 [ANTIGRAVITY]** Configure SQLAlchemy 2.x.
-- [ ] **8.2.6 [ANTIGRAVITY]** Configure the SQLAlchemy session lifecycle.
-- [ ] **8.2.7 [ANTIGRAVITY]** Configure Alembic.
-- [ ] **8.2.8 [ANTIGRAVITY]** Create the initial database migration.
-- [ ] **8.2.9 [ANTIGRAVITY]** Create the predictions table.
-- [ ] **8.2.10 [ANTIGRAVITY]** Create the model-deployments table.
-- [ ] **8.2.11 [ANTIGRAVITY]** Create the dataset-versions table.
-- [ ] **8.2.12 [ANTIGRAVITY]** Create the pipeline-runs table.
-- [ ] **8.2.13 [ANTIGRAVITY]** Create the drift-reports table.
-- [ ] **8.2.14 [ANTIGRAVITY]** Create the retraining-jobs table.
-- [ ] **8.2.15 [ANTIGRAVITY]** Create the audit-logs table.
-- [ ] **8.2.16 [ANTIGRAVITY]** Add required indexes and constraints.
-- [ ] **8.2.17 [ANTIGRAVITY]** Add database repository functions.
-- [ ] **8.2.18 [ANTIGRAVITY]** Add database integration tests.
-- [ ] **8.2.19 [BOTH]** Run the Alembic migration.
-- [ ] **8.2.20 [BOTH]** Verify that all expected tables exist.
+- [x] **8.2.1 [ANTIGRAVITY]** Configure the PostgreSQL 18 service.
+- [x] **8.2.2 [MANUAL]** Start the local PostgreSQL service.
+- [x] **8.2.3 [ANTIGRAVITY]** Create the `visionqc_app` database configuration.
+- [x] **8.2.4 [ANTIGRAVITY]** Create a dedicated application database user.
+- [x] **8.2.5 [ANTIGRAVITY]** Configure SQLAlchemy 2.x.
+- [x] **8.2.6 [ANTIGRAVITY]** Configure the SQLAlchemy session lifecycle.
+- [x] **8.2.7 [ANTIGRAVITY]** Configure Alembic.
+- [x] **8.2.8 [ANTIGRAVITY]** Create the initial database migration.
+- [x] **8.2.9 [ANTIGRAVITY]** Create the predictions table.
+- [x] **8.2.10 [ANTIGRAVITY]** Create the model-deployments table.
+- [x] **8.2.11 [ANTIGRAVITY]** Create the dataset-versions table.
+- [x] **8.2.12 [ANTIGRAVITY]** Create the pipeline-runs table.
+- [x] **8.2.13 [ANTIGRAVITY]** Create the drift-reports table.
+- [x] **8.2.14 [ANTIGRAVITY]** Create the retraining-jobs table.
+- [x] **8.2.15 [ANTIGRAVITY]** Create the audit-logs table.
+- [x] **8.2.16 [ANTIGRAVITY]** Add required indexes and constraints.
+- [x] **8.2.17 [ANTIGRAVITY]** Add database repository functions.
+- [x] **8.2.18 [ANTIGRAVITY]** Add database integration tests.
+- [x] **8.2.19 [BOTH]** Run the Alembic migration.
+- [x] **8.2.20 [BOTH]** Verify that all expected tables exist.
 
 ## 8.3 Implement backend service boundaries
 
-- [ ] **8.3.1 [ANTIGRAVITY]** Create the inspection service.
-- [ ] **8.3.2 [ANTIGRAVITY]** Create the model-management service.
-- [ ] **8.3.3 [ANTIGRAVITY]** Create the experiment service.
-- [ ] **8.3.4 [ANTIGRAVITY]** Create the dataset service.
-- [ ] **8.3.5 [ANTIGRAVITY]** Create the pipeline service.
-- [ ] **8.3.6 [ANTIGRAVITY]** Create the monitoring service.
-- [ ] **8.3.7 [ANTIGRAVITY]** Create the drift service.
-- [ ] **8.3.8 [ANTIGRAVITY]** Create the retraining service.
-- [ ] **8.3.9 [ANTIGRAVITY]** Add service-level unit tests.
+- [x] **8.3.1 [ANTIGRAVITY]** Create the inspection service.
+- [x] **8.3.2 [ANTIGRAVITY]** Create the model-management service.
+- [x] **8.3.3 [ANTIGRAVITY]** Create the experiment service.
+- [x] **8.3.4 [ANTIGRAVITY]** Create the dataset service.
+- [x] **8.3.5 [ANTIGRAVITY]** Create the pipeline service.
+- [x] **8.3.6 [ANTIGRAVITY]** Create the monitoring service.
+- [x] **8.3.7 [ANTIGRAVITY]** Create the drift service.
+- [x] **8.3.8 [ANTIGRAVITY]** Create the retraining service.
+- [x] **8.3.9 [ANTIGRAVITY]** Add service-level unit tests.
 
 **Verification:** FastAPI can connect to PostgreSQL, run migrations and execute tested service functions.
 
@@ -527,60 +527,60 @@ Create the training DAG using reusable modules from `ml/`. Do not place the comp
 
 ## 9.1 Implement model loading
 
-- [ ] **9.1.1 [ANTIGRAVITY]** Implement the model artifact loader.
-- [ ] **9.1.2 [ANTIGRAVITY]** Implement model metadata validation.
-- [ ] **9.1.3 [ANTIGRAVITY]** Implement model loading during application startup.
-- [ ] **9.1.4 [ANTIGRAVITY]** Implement active-model retrieval.
-- [ ] **9.1.5 [ANTIGRAVITY]** Implement controlled model reload.
-- [ ] **9.1.6 [ANTIGRAVITY]** Add model-loading tests.
-- [ ] **9.1.7 [BOTH]** Start the backend with the selected registered model.
-- [ ] **9.1.8 [BOTH]** Verify that the active model loads successfully.
+- [x] **9.1.1 [ANTIGRAVITY]** Implement the model artifact loader.
+- [x] **9.1.2 [ANTIGRAVITY]** Implement model metadata validation.
+- [x] **9.1.3 [ANTIGRAVITY]** Implement model loading during application startup.
+- [x] **9.1.4 [ANTIGRAVITY]** Implement active-model retrieval.
+- [x] **9.1.5 [ANTIGRAVITY]** Implement controlled model reload.
+- [x] **9.1.6 [ANTIGRAVITY]** Add model-loading tests.
+- [x] **9.1.7 [BOTH]** Start the backend with the selected registered model.
+- [x] **9.1.8 [BOTH]** Verify that the active model loads successfully.
 
 ## 9.2 Implement image inspection
 
-- [ ] **9.2.1 [ANTIGRAVITY]** Create the inspection API router.
-- [ ] **9.2.2 [ANTIGRAVITY]** Implement uploaded-file size validation.
-- [ ] **9.2.3 [ANTIGRAVITY]** Implement file-content validation.
-- [ ] **9.2.4 [ANTIGRAVITY]** Implement image decoding validation.
-- [ ] **9.2.5 [ANTIGRAVITY]** Implement safe temporary-file handling.
-- [ ] **9.2.6 [ANTIGRAVITY]** Connect the shared preprocessing function.
-- [ ] **9.2.7 [ANTIGRAVITY]** Connect the loaded model to the inference function.
-- [ ] **9.2.8 [ANTIGRAVITY]** Implement defect probability calculation.
-- [ ] **9.2.9 [ANTIGRAVITY]** Apply the configured classification threshold.
-- [ ] **9.2.10 [ANTIGRAVITY]** Measure inference latency.
-- [ ] **9.2.11 [ANTIGRAVITY]** Generate a prediction identifier.
-- [ ] **9.2.12 [ANTIGRAVITY]** Persist prediction metadata in PostgreSQL.
-- [ ] **9.2.13 [ANTIGRAVITY]** Return the prediction result as structured JSON.
-- [ ] **9.2.14 [ANTIGRAVITY]** Add prediction endpoint tests.
-- [ ] **9.2.15 [BOTH]** Submit a real OK image to the API.
-- [ ] **9.2.16 [BOTH]** Submit a real DEFECTIVE image to the API.
-- [ ] **9.2.17 [BOTH]** Verify both responses contain the required metadata.
-- [ ] **9.2.18 [BOTH]** Verify prediction records are persisted.
+- [x] **9.2.1 [ANTIGRAVITY]** Create the inspection API router.
+- [x] **9.2.2 [ANTIGRAVITY]** Implement uploaded-file size validation.
+- [x] **9.2.3 [ANTIGRAVITY]** Implement file-content validation.
+- [x] **9.2.4 [ANTIGRAVITY]** Implement image decoding validation.
+- [x] **9.2.5 [ANTIGRAVITY]** Implement safe temporary-file handling.
+- [x] **9.2.6 [ANTIGRAVITY]** Connect the shared preprocessing function.
+- [x] **9.2.7 [ANTIGRAVITY]** Connect the loaded model to the inference function.
+- [x] **9.2.8 [ANTIGRAVITY]** Implement defect probability calculation.
+- [x] **9.2.9 [ANTIGRAVITY]** Apply the configured classification threshold.
+- [x] **9.2.10 [ANTIGRAVITY]** Measure inference latency.
+- [x] **9.2.11 [ANTIGRAVITY]** Generate a prediction identifier.
+- [x] **9.2.12 [ANTIGRAVITY]** Persist prediction metadata in PostgreSQL.
+- [x] **9.2.13 [ANTIGRAVITY]** Return the prediction result as structured JSON.
+- [x] **9.2.14 [ANTIGRAVITY]** Add prediction endpoint tests.
+- [x] **9.2.15 [BOTH]** Submit a real OK image to the API.
+- [x] **9.2.16 [BOTH]** Submit a real DEFECTIVE image to the API.
+- [x] **9.2.17 [BOTH]** Verify both responses contain the required metadata.
+- [x] **9.2.18 [BOTH]** Verify prediction records are persisted.
 
 ## 9.3 Implement Grad-CAM API integration
 
-- [ ] **9.3.1 [ANTIGRAVITY]** Add an optional explainability parameter to the inspection API.
-- [ ] **9.3.2 [ANTIGRAVITY]** Connect the Grad-CAM implementation to inference.
-- [ ] **9.3.3 [ANTIGRAVITY]** Return the original image reference.
-- [ ] **9.3.4 [ANTIGRAVITY]** Return the heatmap reference.
-- [ ] **9.3.5 [ANTIGRAVITY]** Return the overlay reference.
-- [ ] **9.3.6 [ANTIGRAVITY]** Add explainability API tests.
-- [ ] **9.3.7 [BOTH]** Verify the three visualization modes using a real inspection.
+- [x] **9.3.1 [ANTIGRAVITY]** Add an optional explainability parameter to the inspection API.
+- [x] **9.3.2 [ANTIGRAVITY]** Connect the Grad-CAM implementation to inference.
+- [x] **9.3.3 [ANTIGRAVITY]** Return the original image reference.
+- [x] **9.3.4 [ANTIGRAVITY]** Return the heatmap reference.
+- [x] **9.3.5 [ANTIGRAVITY]** Return the overlay reference.
+- [x] **9.3.6 [ANTIGRAVITY]** Add explainability API tests.
+- [x] **9.3.7 [BOTH]** Verify the three visualization modes using a real inspection.
 
 ## 9.4 Implement supporting APIs
 
-- [ ] **9.4.1 [ANTIGRAVITY]** Implement `GET /health`.
-- [ ] **9.4.2 [ANTIGRAVITY]** Implement `POST /predict` as the documented compatibility route.
-- [ ] **9.4.3 [ANTIGRAVITY]** Implement `GET /model-info`.
-- [ ] **9.4.4 [ANTIGRAVITY]** Implement `/api/v1/models`.
-- [ ] **9.4.5 [ANTIGRAVITY]** Implement `/api/v1/experiments`.
-- [ ] **9.4.6 [ANTIGRAVITY]** Implement `/api/v1/datasets`.
-- [ ] **9.4.7 [ANTIGRAVITY]** Implement `/api/v1/pipelines`.
-- [ ] **9.4.8 [ANTIGRAVITY]** Implement `/api/v1/monitoring`.
-- [ ] **9.4.9 [ANTIGRAVITY]** Implement `/api/v1/drift`.
-- [ ] **9.4.10 [ANTIGRAVITY]** Implement `/api/v1/retraining`.
-- [ ] **9.4.11 [ANTIGRAVITY]** Add API response-schema tests.
-- [ ] **9.4.12 [BOTH]** Verify all API routes through Swagger UI.
+- [x] **9.4.1 [ANTIGRAVITY]** Implement `GET /health`.
+- [x] **9.4.2 [ANTIGRAVITY]** Implement `POST /predict` as the documented compatibility route.
+- [x] **9.4.3 [ANTIGRAVITY]** Implement `GET /model-info`.
+- [x] **9.4.4 [ANTIGRAVITY]** Implement `/api/v1/models`.
+- [x] **9.4.5 [ANTIGRAVITY]** Implement `/api/v1/experiments`.
+- [x] **9.4.6 [ANTIGRAVITY]** Implement `/api/v1/datasets`.
+- [x] **9.4.7 [ANTIGRAVITY]** Implement `/api/v1/pipelines`.
+- [x] **9.4.8 [ANTIGRAVITY]** Implement `/api/v1/monitoring`.
+- [x] **9.4.9 [ANTIGRAVITY]** Implement `/api/v1/drift`.
+- [x] **9.4.10 [ANTIGRAVITY]** Implement `/api/v1/retraining`.
+- [x] **9.4.11 [ANTIGRAVITY]** Add API response-schema tests.
+- [x] **9.4.12 [BOTH]** Verify all API routes through Swagger UI.
 
 **Verification:** A real image can be uploaded, classified, explained and recorded through the backend.
 

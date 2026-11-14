@@ -1,0 +1,35 @@
+stages:
+  preprocess:
+    cmd: python -c "from ml.pipeline_tasks import task_preprocess_data; task_preprocess_data()"
+    deps:
+      - ml/pipeline_tasks.py
+      - ml/preprocessing/
+      - params.yaml
+    params:
+      - preprocessing
+    outs:
+      - ml/data/split:
+          persist: true
+
+  train:
+    cmd: python -c "from ml.pipeline_tasks import task_train_model; task_train_model()"
+    deps:
+      - ml/data/split
+      - ml/models/
+      - ml/training/
+      - params.yaml
+    params:
+      - training
+    outs:
+      - ml/models/saved:
+          persist: true
+
+  evaluate:
+    cmd: python -c "from ml.pipeline_tasks import task_evaluate_model; task_evaluate_model()"
+    deps:
+      - ml/models/saved
+      - ml/evaluation/
+      - params.yaml
+    metrics:
+      - metrics.json:
+          cache: false

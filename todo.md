@@ -592,79 +592,79 @@ Create the training DAG using reusable modules from `ml/`. Do not place the comp
 
 ## 10.1 Initialize the frontend
 
-- [ ] **10.1.1 [ANTIGRAVITY]** Initialize the Next.js 16 application.
-- [ ] **10.1.2 [ANTIGRAVITY]** Configure React 19.
-- [ ] **10.1.3 [ANTIGRAVITY]** Configure TypeScript.
-- [ ] **10.1.4 [ANTIGRAVITY]** Configure the selected Tailwind CSS version.
-- [ ] **10.1.5 [ANTIGRAVITY]** Configure shadcn/ui.
-- [ ] **10.1.6 [ANTIGRAVITY]** Configure Radix UI dependencies.
-- [ ] **10.1.7 [ANTIGRAVITY]** Configure Lucide React.
-- [ ] **10.1.8 [ANTIGRAVITY]** Configure Recharts.
-- [ ] **10.1.9 [ANTIGRAVITY]** Configure Framer Motion.
-- [ ] **10.1.10 [ANTIGRAVITY]** Configure ESLint.
-- [ ] **10.1.11 [ANTIGRAVITY]** Configure Prettier.
-- [ ] **10.1.12 [ANTIGRAVITY]** Configure the frontend environment variables.
-- [ ] **10.1.13 [BOTH]** Start the frontend locally.
-- [ ] **10.1.14 [BOTH]** Verify the default application loads.
+- [x] **10.1.1 [ANTIGRAVITY]** Initialize the Next.js 16 application.
+- [x] **10.1.2 [ANTIGRAVITY]** Configure React 19.
+- [x] **10.1.3 [ANTIGRAVITY]** Configure TypeScript.
+- [x] **10.1.4 [ANTIGRAVITY]** Configure the selected Tailwind CSS version.
+- [x] **10.1.5 [ANTIGRAVITY]** Configure shadcn/ui.
+- [x] **10.1.6 [ANTIGRAVITY]** Configure Radix UI dependencies.
+- [x] **10.1.7 [ANTIGRAVITY]** Configure Lucide React.
+- [x] **10.1.8 [ANTIGRAVITY]** Configure Recharts.
+- [x] **10.1.9 [ANTIGRAVITY]** Configure Framer Motion.
+- [x] **10.1.10 [ANTIGRAVITY]** Configure ESLint.
+- [x] **10.1.11 [ANTIGRAVITY]** Configure Prettier.
+- [x] **10.1.12 [ANTIGRAVITY]** Configure the frontend environment variables.
+- [x] **10.1.13 [BOTH]** Start the frontend locally.
+- [x] **10.1.14 [BOTH]** Verify the default application loads.
 
 ## 10.2 Implement design tokens
 
-- [ ] **10.2.1 [ANTIGRAVITY]** Create the global design-token stylesheet.
-- [ ] **10.2.2 [ANTIGRAVITY]** Add the Ink token.
-- [ ] **10.2.3 [ANTIGRAVITY]** Add the Graphite token.
-- [ ] **10.2.4 [ANTIGRAVITY]** Add the Steel Blue token.
-- [ ] **10.2.5 [ANTIGRAVITY]** Add the Muted Blue token.
-- [ ] **10.2.6 [ANTIGRAVITY]** Add the Paper token.
-- [ ] **10.2.7 [ANTIGRAVITY]** Add the White token.
-- [ ] **10.2.8 [ANTIGRAVITY]** Add the Border token.
-- [ ] **10.2.9 [ANTIGRAVITY]** Add the Muted Grey token.
-- [ ] **10.2.10 [ANTIGRAVITY]** Add the Light Grey token.
-- [ ] **10.2.11 [ANTIGRAVITY]** Add the semantic status tokens.
-- [ ] **10.2.12 [ANTIGRAVITY]** Add the typography tokens.
-- [ ] **10.2.13 [ANTIGRAVITY]** Add the spacing scale.
-- [ ] **10.2.14 [ANTIGRAVITY]** Add the approved radius tokens.
-- [ ] **10.2.15 [ANTIGRAVITY]** Add the default border token.
-- [ ] **10.2.16 [ANTIGRAVITY]** Configure Geist Sans as the licensed-font fallback.
-- [ ] **10.2.17 [ANTIGRAVITY]** Configure Geist Mono for technical metadata.
-- [ ] **10.2.18 [ANTIGRAVITY]** Ensure Roobert is used only if a properly licensed font file is available.
-- [ ] **10.2.19 [ANTIGRAVITY]** Verify all shared components consume centralized tokens.
+- [x] **10.2.1 [ANTIGRAVITY]** Create the global design-token stylesheet.
+- [x] **10.2.2 [ANTIGRAVITY]** Add the Ink token.
+- [x] **10.2.3 [ANTIGRAVITY]** Add the Graphite token.
+- [x] **10.2.4 [ANTIGRAVITY]** Add the Steel Blue token.
+- [x] **10.2.5 [ANTIGRAVITY]** Add the Muted Blue token.
+- [x] **10.2.6 [ANTIGRAVITY]** Add the Paper token.
+- [x] **10.2.7 [ANTIGRAVITY]** Add the White token.
+- [x] **10.2.8 [ANTIGRAVITY]** Add the Border token.
+- [x] **10.2.9 [ANTIGRAVITY]** Add the Muted Grey token.
+- [x] **10.2.10 [ANTIGRAVITY]** Add the Light Grey token.
+- [x] **10.2.11 [ANTIGRAVITY]** Add the semantic status tokens.
+- [x] **10.2.12 [ANTIGRAVITY]** Add the typography tokens.
+- [x] **10.2.13 [ANTIGRAVITY]** Add the spacing scale.
+- [x] **10.2.14 [ANTIGRAVITY]** Add the approved radius tokens.
+- [x] **10.2.15 [ANTIGRAVITY]** Add the default border token.
+- [x] **10.2.16 [ANTIGRAVITY]** Configure Geist Sans as the licensed-font fallback.
+- [x] **10.2.17 [ANTIGRAVITY]** Configure Geist Mono for technical metadata.
+- [x] **10.2.18 [ANTIGRAVITY]** Ensure Roobert is used only if a properly licensed font file is available.
+- [x] **10.2.19 [ANTIGRAVITY]** Verify all shared components consume centralized tokens.
 
 ## 10.3 Build shared components
 
-- [ ] **10.3.1 [ANTIGRAVITY]** Build the primary button.
-- [ ] **10.3.2 [ANTIGRAVITY]** Build the secondary button.
-- [ ] **10.3.3 [ANTIGRAVITY]** Build the destructive button.
-- [ ] **10.3.4 [ANTIGRAVITY]** Build the standard card.
-- [ ] **10.3.5 [ANTIGRAVITY]** Build the page heading component.
-- [ ] **10.3.6 [ANTIGRAVITY]** Build the section heading component.
-- [ ] **10.3.7 [ANTIGRAVITY]** Build the status indicator.
-- [ ] **10.3.8 [ANTIGRAVITY]** Build the labelled input component.
-- [ ] **10.3.9 [ANTIGRAVITY]** Build the data table component.
-- [ ] **10.3.10 [ANTIGRAVITY]** Build the empty-state component.
-- [ ] **10.3.11 [ANTIGRAVITY]** Build the loading-state component.
-- [ ] **10.3.12 [ANTIGRAVITY]** Build the error-state component.
-- [ ] **10.3.13 [ANTIGRAVITY]** Build the confirmation dialog.
-- [ ] **10.3.14 [ANTIGRAVITY]** Build the tooltip component.
-- [ ] **10.3.15 [ANTIGRAVITY]** Verify keyboard interaction for the shared components.
+- [x] **10.3.1 [ANTIGRAVITY]** Build the primary button.
+- [x] **10.3.2 [ANTIGRAVITY]** Build the secondary button.
+- [x] **10.3.3 [ANTIGRAVITY]** Build the destructive button.
+- [x] **10.3.4 [ANTIGRAVITY]** Build the standard card.
+- [x] **10.3.5 [ANTIGRAVITY]** Build the page heading component.
+- [x] **10.3.6 [ANTIGRAVITY]** Build the section heading component.
+- [x] **10.3.7 [ANTIGRAVITY]** Build the status indicator.
+- [x] **10.3.8 [ANTIGRAVITY]** Build the labelled input component.
+- [x] **10.3.9 [ANTIGRAVITY]** Build the data table component.
+- [x] **10.3.10 [ANTIGRAVITY]** Build the empty-state component.
+- [x] **10.3.11 [ANTIGRAVITY]** Build the loading-state component.
+- [x] **10.3.12 [ANTIGRAVITY]** Build the error-state component.
+- [x] **10.3.13 [ANTIGRAVITY]** Build the confirmation dialog.
+- [x] **10.3.14 [ANTIGRAVITY]** Build the tooltip component.
+- [x] **10.3.15 [ANTIGRAVITY]** Verify keyboard interaction for the shared components.
 
 ## 10.4 Build the application shell
 
-- [ ] **10.4.1 [ANTIGRAVITY]** Build the application sidebar.
-- [ ] **10.4.2 [ANTIGRAVITY]** Add the VisionQC product identity.
-- [ ] **10.4.3 [ANTIGRAVITY]** Add the nine required navigation links.
-- [ ] **10.4.4 [ANTIGRAVITY]** Implement the active navigation state.
-- [ ] **10.4.5 [ANTIGRAVITY]** Implement sidebar collapse.
-- [ ] **10.4.6 [ANTIGRAVITY]** Implement the responsive navigation behavior.
-- [ ] **10.4.7 [ANTIGRAVITY]** Build the top application header.
-- [ ] **10.4.8 [ANTIGRAVITY]** Add the page-context area.
-- [ ] **10.4.9 [ANTIGRAVITY]** Add the real system-health indicator.
-- [ ] **10.4.10 [ANTIGRAVITY]** Add the contextual action area.
-- [ ] **10.4.11 [ANTIGRAVITY]** Add the shared content container.
-- [ ] **10.4.12 [ANTIGRAVITY]** Configure the root route to redirect to `/overview`.
-- [ ] **10.4.13 [ANTIGRAVITY]** Verify that no login or signup interface is introduced.
-- [ ] **10.4.14 [BOTH]** Inspect the application shell at desktop width.
-- [ ] **10.4.15 [BOTH]** Inspect the application shell at tablet width.
-- [ ] **10.4.16 [BOTH]** Inspect the application shell at mobile width.
+- [x] **10.4.1 [ANTIGRAVITY]** Build the application sidebar.
+- [x] **10.4.2 [ANTIGRAVITY]** Add the VisionQC product identity.
+- [x] **10.4.3 [ANTIGRAVITY]** Add the nine required navigation links.
+- [x] **10.4.4 [ANTIGRAVITY]** Implement the active navigation state.
+- [x] **10.4.5 [ANTIGRAVITY]** Implement sidebar collapse.
+- [x] **10.4.6 [ANTIGRAVITY]** Implement the responsive navigation behavior.
+- [x] **10.4.7 [ANTIGRAVITY]** Build the top application header.
+- [x] **10.4.8 [ANTIGRAVITY]** Add the page-context area.
+- [x] **10.4.9 [ANTIGRAVITY]** Add the real system-health indicator.
+- [x] **10.4.10 [ANTIGRAVITY]** Add the contextual action area.
+- [x] **10.4.11 [ANTIGRAVITY]** Add the shared content container.
+- [x] **10.4.12 [ANTIGRAVITY]** Configure the root route to redirect to `/overview`.
+- [x] **10.4.13 [ANTIGRAVITY]** Verify that no login or signup interface is introduced.
+- [x] **10.4.14 [BOTH]** Inspect the application shell at desktop width.
+- [x] **10.4.15 [BOTH]** Inspect the application shell at tablet width.
+- [x] **10.4.16 [BOTH]** Inspect the application shell at mobile width.
 
 **Verification:** The shared visual foundation is implemented and every page can use the same application shell.
 
@@ -676,166 +676,166 @@ Create the training DAG using reusable modules from `ml/`. Do not place the comp
 
 ## 11.1 Configure API integration
 
-- [ ] **11.1.1 [ANTIGRAVITY]** Create the frontend API client.
-- [ ] **11.1.2 [ANTIGRAVITY]** Define shared API response types.
-- [ ] **11.1.3 [ANTIGRAVITY]** Define prediction response types.
-- [ ] **11.1.4 [ANTIGRAVITY]** Define model metadata types.
-- [ ] **11.1.5 [ANTIGRAVITY]** Define experiment response types.
-- [ ] **11.1.6 [ANTIGRAVITY]** Define dataset response types.
-- [ ] **11.1.7 [ANTIGRAVITY]** Define pipeline response types.
-- [ ] **11.1.8 [ANTIGRAVITY]** Define monitoring response types.
-- [ ] **11.1.9 [ANTIGRAVITY]** Define drift response types.
-- [ ] **11.1.10 [ANTIGRAVITY]** Define retraining response types.
-- [ ] **11.1.11 [ANTIGRAVITY]** Implement API error handling.
-- [ ] **11.1.12 [ANTIGRAVITY]** Implement loading and retry behavior.
-- [ ] **11.1.13 [ANTIGRAVITY]** Add API client tests.
-- [ ] **11.1.14 [BOTH]** Verify frontend-to-backend communication.
+- [x] **11.1.1 [ANTIGRAVITY]** Create the frontend API client.
+- [x] **11.1.2 [ANTIGRAVITY]** Define shared API response types.
+- [x] **11.1.3 [ANTIGRAVITY]** Define prediction response types.
+- [x] **11.1.4 [ANTIGRAVITY]** Define model metadata types.
+- [x] **11.1.5 [ANTIGRAVITY]** Define experiment response types.
+- [x] **11.1.6 [ANTIGRAVITY]** Define dataset response types.
+- [x] **11.1.7 [ANTIGRAVITY]** Define pipeline response types.
+- [x] **11.1.8 [ANTIGRAVITY]** Define monitoring response types.
+- [x] **11.1.9 [ANTIGRAVITY]** Define drift response types.
+- [x] **11.1.10 [ANTIGRAVITY]** Define retraining response types.
+- [x] **11.1.11 [ANTIGRAVITY]** Implement API error handling.
+- [x] **11.1.12 [ANTIGRAVITY]** Implement loading and retry behavior.
+- [x] **11.1.13 [ANTIGRAVITY]** Add API client tests.
+- [x] **11.1.14 [BOTH]** Verify frontend-to-backend communication.
 
 ## 11.2 Build the Inspection Workbench
 
-- [ ] **11.2.1 [ANTIGRAVITY]** Create the inspection page route.
-- [ ] **11.2.2 [ANTIGRAVITY]** Build the image upload area.
-- [ ] **11.2.3 [ANTIGRAVITY]** Implement frontend file-type validation.
-- [ ] **11.2.4 [ANTIGRAVITY]** Implement frontend file-size validation.
-- [ ] **11.2.5 [ANTIGRAVITY]** Build the image preview.
-- [ ] **11.2.6 [ANTIGRAVITY]** Build the Analyze button.
-- [ ] **11.2.7 [ANTIGRAVITY]** Connect image submission to the inspection API.
-- [ ] **11.2.8 [ANTIGRAVITY]** Build the inspection loading state.
-- [ ] **11.2.9 [ANTIGRAVITY]** Build the OK result state.
-- [ ] **11.2.10 [ANTIGRAVITY]** Build the DEFECTIVE result state.
-- [ ] **11.2.11 [ANTIGRAVITY]** Display the confidence or probability information with clear labelling.
-- [ ] **11.2.12 [ANTIGRAVITY]** Display the model version.
-- [ ] **11.2.13 [ANTIGRAVITY]** Display inference latency with units.
-- [ ] **11.2.14 [ANTIGRAVITY]** Build the original-image view.
-- [ ] **11.2.15 [ANTIGRAVITY]** Build the Grad-CAM heatmap view.
-- [ ] **11.2.16 [ANTIGRAVITY]** Build the Grad-CAM overlay view.
-- [ ] **11.2.17 [ANTIGRAVITY]** Implement the visualization mode selector.
-- [ ] **11.2.18 [ANTIGRAVITY]** Build the technical model-information panel.
-- [ ] **11.2.19 [ANTIGRAVITY]** Add an inspection error state.
-- [ ] **11.2.20 [ANTIGRAVITY]** Add an initial empty state.
-- [ ] **11.2.21 [BOTH]** Test the complete inspection workflow using an actual OK image.
-- [ ] **11.2.22 [BOTH]** Test the complete inspection workflow using an actual DEFECTIVE image.
-- [ ] **11.2.23 [BOTH]** Verify all three Grad-CAM views display actual generated outputs.
+- [x] **11.2.1 [ANTIGRAVITY]** Create the inspection page route.
+- [x] **11.2.2 [ANTIGRAVITY]** Build the image upload area.
+- [x] **11.2.3 [ANTIGRAVITY]** Implement frontend file-type validation.
+- [x] **11.2.4 [ANTIGRAVITY]** Implement frontend file-size validation.
+- [x] **11.2.5 [ANTIGRAVITY]** Build the image preview.
+- [x] **11.2.6 [ANTIGRAVITY]** Build the Analyze button.
+- [x] **11.2.7 [ANTIGRAVITY]** Connect image submission to the inspection API.
+- [x] **11.2.8 [ANTIGRAVITY]** Build the inspection loading state.
+- [x] **11.2.9 [ANTIGRAVITY]** Build the OK result state.
+- [x] **11.2.10 [ANTIGRAVITY]** Build the DEFECTIVE result state.
+- [x] **11.2.11 [ANTIGRAVITY]** Display the confidence or probability information with clear labelling.
+- [x] **11.2.12 [ANTIGRAVITY]** Display the model version.
+- [x] **11.2.13 [ANTIGRAVITY]** Display inference latency with units.
+- [x] **11.2.14 [ANTIGRAVITY]** Build the original-image view.
+- [x] **11.2.15 [ANTIGRAVITY]** Build the Grad-CAM heatmap view.
+- [x] **11.2.16 [ANTIGRAVITY]** Build the Grad-CAM overlay view.
+- [x] **11.2.17 [ANTIGRAVITY]** Implement the visualization mode selector.
+- [x] **11.2.18 [ANTIGRAVITY]** Build the technical model-information panel.
+- [x] **11.2.19 [ANTIGRAVITY]** Add an inspection error state.
+- [x] **11.2.20 [ANTIGRAVITY]** Add an initial empty state.
+- [x] **11.2.21 [BOTH]** Test the complete inspection workflow using an actual OK image.
+- [x] **11.2.22 [BOTH]** Test the complete inspection workflow using an actual DEFECTIVE image.
+- [x] **11.2.23 [BOTH]** Verify all three Grad-CAM views display actual generated outputs.
 
 ## 11.3 Build Overview
 
-- [ ] **11.3.1 [ANTIGRAVITY]** Create the Overview page route.
-- [ ] **11.3.2 [ANTIGRAVITY]** Add the page heading and description.
-- [ ] **11.3.3 [ANTIGRAVITY]** Connect the API health indicator.
-- [ ] **11.3.4 [ANTIGRAVITY]** Connect the active-model information.
-- [ ] **11.3.5 [ANTIGRAVITY]** Connect the recent-inspection count.
-- [ ] **11.3.6 [ANTIGRAVITY]** Connect the latest pipeline state.
-- [ ] **11.3.7 [ANTIGRAVITY]** Build the prediction distribution chart.
-- [ ] **11.3.8 [ANTIGRAVITY]** Build the recent pipeline activity section.
-- [ ] **11.3.9 [ANTIGRAVITY]** Build the monitoring alerts section.
-- [ ] **11.3.10 [ANTIGRAVITY]** Add an empty state for missing inspection data.
-- [ ] **11.3.11 [ANTIGRAVITY]** Add an error state for unavailable services.
-- [ ] **11.3.12 [BOTH]** Verify every Overview value against its API response.
+- [x] **11.3.1 [ANTIGRAVITY]** Create the Overview page route.
+- [x] **11.3.2 [ANTIGRAVITY]** Add the page heading and description.
+- [x] **11.3.3 [ANTIGRAVITY]** Connect the API health indicator.
+- [x] **11.3.4 [ANTIGRAVITY]** Connect the active-model information.
+- [x] **11.3.5 [ANTIGRAVITY]** Connect the recent-inspection count.
+- [x] **11.3.6 [ANTIGRAVITY]** Connect the latest pipeline state.
+- [x] **11.3.7 [ANTIGRAVITY]** Build the prediction distribution chart.
+- [x] **11.3.8 [ANTIGRAVITY]** Build the recent pipeline activity section.
+- [x] **11.3.9 [ANTIGRAVITY]** Build the monitoring alerts section.
+- [x] **11.3.10 [ANTIGRAVITY]** Add an empty state for missing inspection data.
+- [x] **11.3.11 [ANTIGRAVITY]** Add an error state for unavailable services.
+- [x] **11.3.12 [BOTH]** Verify every Overview value against its API response.
 
 ## 11.4 Build Experiments
 
-- [ ] **11.4.1 [ANTIGRAVITY]** Create the Experiments page route.
-- [ ] **11.4.2 [ANTIGRAVITY]** Connect the MLflow experiment API.
-- [ ] **11.4.3 [ANTIGRAVITY]** Build the experiment history table.
-- [ ] **11.4.4 [ANTIGRAVITY]** Display model architecture.
-- [ ] **11.4.5 [ANTIGRAVITY]** Display dataset version.
-- [ ] **11.4.6 [ANTIGRAVITY]** Display training configuration.
-- [ ] **11.4.7 [ANTIGRAVITY]** Display experiment status and duration.
-- [ ] **11.4.8 [ANTIGRAVITY]** Build the model comparison chart.
-- [ ] **11.4.9 [ANTIGRAVITY]** Display defect recall and false-negative rate.
-- [ ] **11.4.10 [ANTIGRAVITY]** Add experiment empty and error states.
-- [ ] **11.4.11 [BOTH]** Verify experiment values against MLflow.
+- [x] **11.4.1 [ANTIGRAVITY]** Create the Experiments page route.
+- [x] **11.4.2 [ANTIGRAVITY]** Connect the MLflow experiment API.
+- [x] **11.4.3 [ANTIGRAVITY]** Build the experiment history table.
+- [x] **11.4.4 [ANTIGRAVITY]** Display model architecture.
+- [x] **11.4.5 [ANTIGRAVITY]** Display dataset version.
+- [x] **11.4.6 [ANTIGRAVITY]** Display training configuration.
+- [x] **11.4.7 [ANTIGRAVITY]** Display experiment status and duration.
+- [x] **11.4.8 [ANTIGRAVITY]** Build the model comparison chart.
+- [x] **11.4.9 [ANTIGRAVITY]** Display defect recall and false-negative rate.
+- [x] **11.4.10 [ANTIGRAVITY]** Add experiment empty and error states.
+- [x] **11.4.11 [BOTH]** Verify experiment values against MLflow.
 
 ## 11.5 Build Datasets
 
-- [ ] **11.5.1 [ANTIGRAVITY]** Create the Datasets page route.
-- [ ] **11.5.2 [ANTIGRAVITY]** Connect the dataset metadata API.
-- [ ] **11.5.3 [ANTIGRAVITY]** Display dataset name and version.
-- [ ] **11.5.4 [ANTIGRAVITY]** Display actual image counts.
-- [ ] **11.5.5 [ANTIGRAVITY]** Display OK and DEFECTIVE counts.
-- [ ] **11.5.6 [ANTIGRAVITY]** Display split information.
-- [ ] **11.5.7 [ANTIGRAVITY]** Display augmentation configuration.
-- [ ] **11.5.8 [ANTIGRAVITY]** Display the DVC reference.
-- [ ] **11.5.9 [ANTIGRAVITY]** Add dataset empty and error states.
-- [ ] **11.5.10 [BOTH]** Verify dataset information against DVC and the validation report.
+- [x] **11.5.1 [ANTIGRAVITY]** Create the Datasets page route.
+- [x] **11.5.2 [ANTIGRAVITY]** Connect the dataset metadata API.
+- [x] **11.5.3 [ANTIGRAVITY]** Display dataset name and version.
+- [x] **11.5.4 [ANTIGRAVITY]** Display actual image counts.
+- [x] **11.5.5 [ANTIGRAVITY]** Display OK and DEFECTIVE counts.
+- [x] **11.5.6 [ANTIGRAVITY]** Display split information.
+- [x] **11.5.7 [ANTIGRAVITY]** Display augmentation configuration.
+- [x] **11.5.8 [ANTIGRAVITY]** Display the DVC reference.
+- [x] **11.5.9 [ANTIGRAVITY]** Add dataset empty and error states.
+- [x] **11.5.10 [BOTH]** Verify dataset information against DVC and the validation report.
 
 ## 11.6 Build Pipelines
 
-- [ ] **11.6.1 [ANTIGRAVITY]** Create the Pipelines page route.
-- [ ] **11.6.2 [ANTIGRAVITY]** Connect the Airflow API integration.
-- [ ] **11.6.3 [ANTIGRAVITY]** Display DAG names.
-- [ ] **11.6.4 [ANTIGRAVITY]** Display latest execution time.
-- [ ] **11.6.5 [ANTIGRAVITY]** Display execution status.
-- [ ] **11.6.6 [ANTIGRAVITY]** Display execution duration.
-- [ ] **11.6.7 [ANTIGRAVITY]** Display failed task counts.
-- [ ] **11.6.8 [ANTIGRAVITY]** Build the pipeline task-dependency view.
-- [ ] **11.6.9 [ANTIGRAVITY]** Build the pipeline execution history table.
-- [ ] **11.6.10 [ANTIGRAVITY]** Add pipeline empty and error states.
-- [ ] **11.6.11 [BOTH]** Verify the frontend status against the Airflow UI.
+- [x] **11.6.1 [ANTIGRAVITY]** Create the Pipelines page route.
+- [x] **11.6.2 [ANTIGRAVITY]** Connect the Airflow API integration.
+- [x] **11.6.3 [ANTIGRAVITY]** Display DAG names.
+- [x] **11.6.4 [ANTIGRAVITY]** Display latest execution time.
+- [x] **11.6.5 [ANTIGRAVITY]** Display execution status.
+- [x] **11.6.6 [ANTIGRAVITY]** Display execution duration.
+- [x] **11.6.7 [ANTIGRAVITY]** Display failed task counts.
+- [x] **11.6.8 [ANTIGRAVITY]** Build the pipeline task-dependency view.
+- [x] **11.6.9 [ANTIGRAVITY]** Build the pipeline execution history table.
+- [x] **11.6.10 [ANTIGRAVITY]** Add pipeline empty and error states.
+- [x] **11.6.11 [BOTH]** Verify the frontend status against the Airflow UI.
 
 ## 11.7 Build Model Registry
 
-- [ ] **11.7.1 [ANTIGRAVITY]** Create the Model Registry page route.
-- [ ] **11.7.2 [ANTIGRAVITY]** Connect the model registry API.
-- [ ] **11.7.3 [ANTIGRAVITY]** Display model names.
-- [ ] **11.7.4 [ANTIGRAVITY]** Display model versions.
-- [ ] **11.7.5 [ANTIGRAVITY]** Display architecture and dataset reference.
-- [ ] **11.7.6 [ANTIGRAVITY]** Display evaluation metrics.
-- [ ] **11.7.7 [ANTIGRAVITY]** Display approval state.
-- [ ] **11.7.8 [ANTIGRAVITY]** Display deployment state.
-- [ ] **11.7.9 [ANTIGRAVITY]** Highlight the active deployed model.
-- [ ] **11.7.10 [ANTIGRAVITY]** Implement the controlled promotion action.
-- [ ] **11.7.11 [ANTIGRAVITY]** Add a promotion confirmation dialog.
-- [ ] **11.7.12 [ANTIGRAVITY]** Prevent promotion when the quality gate has failed.
-- [ ] **11.7.13 [BOTH]** Verify model metadata against MLflow.
+- [x] **11.7.1 [ANTIGRAVITY]** Create the Model Registry page route.
+- [x] **11.7.2 [ANTIGRAVITY]** Connect the model registry API.
+- [x] **11.7.3 [ANTIGRAVITY]** Display model names.
+- [x] **11.7.4 [ANTIGRAVITY]** Display model versions.
+- [x] **11.7.5 [ANTIGRAVITY]** Display architecture and dataset reference.
+- [x] **11.7.6 [ANTIGRAVITY]** Display evaluation metrics.
+- [x] **11.7.7 [ANTIGRAVITY]** Display approval state.
+- [x] **11.7.8 [ANTIGRAVITY]** Display deployment state.
+- [x] **11.7.9 [ANTIGRAVITY]** Highlight the active deployed model.
+- [x] **11.7.10 [ANTIGRAVITY]** Implement the controlled promotion action.
+- [x] **11.7.11 [ANTIGRAVITY]** Add a promotion confirmation dialog.
+- [x] **11.7.12 [ANTIGRAVITY]** Prevent promotion when the quality gate has failed.
+- [x] **11.7.13 [BOTH]** Verify model metadata against MLflow.
 
 ## 11.8 Build Monitoring
 
-- [ ] **11.8.1 [ANTIGRAVITY]** Create the Monitoring page route.
-- [ ] **11.8.2 [ANTIGRAVITY]** Build the operational monitoring section.
-- [ ] **11.8.3 [ANTIGRAVITY]** Display request volume.
-- [ ] **11.8.4 [ANTIGRAVITY]** Display error rate.
-- [ ] **11.8.5 [ANTIGRAVITY]** Display inference latency.
-- [ ] **11.8.6 [ANTIGRAVITY]** Display throughput.
-- [ ] **11.8.7 [ANTIGRAVITY]** Display service health.
-- [ ] **11.8.8 [ANTIGRAVITY]** Build the ML monitoring section.
-- [ ] **11.8.9 [ANTIGRAVITY]** Display prediction distribution.
-- [ ] **11.8.10 [ANTIGRAVITY]** Display confidence distribution.
-- [ ] **11.8.11 [ANTIGRAVITY]** Display image drift measurements.
-- [ ] **11.8.12 [ANTIGRAVITY]** Display reference-versus-incoming distributions.
-- [ ] **11.8.13 [ANTIGRAVITY]** Display measured performance only when ground-truth labels are available.
-- [ ] **11.8.14 [ANTIGRAVITY]** Add chart units, labels and time ranges.
-- [ ] **11.8.15 [ANTIGRAVITY]** Add monitoring empty and error states.
-- [ ] **11.8.16 [BOTH]** Verify monitoring values against Prometheus and the backend.
+- [x] **11.8.1 [ANTIGRAVITY]** Create the Monitoring page route.
+- [x] **11.8.2 [ANTIGRAVITY]** Build the operational monitoring section.
+- [x] **11.8.3 [ANTIGRAVITY]** Display request volume.
+- [x] **11.8.4 [ANTIGRAVITY]** Display error rate.
+- [x] **11.8.5 [ANTIGRAVITY]** Display inference latency.
+- [x] **11.8.6 [ANTIGRAVITY]** Display throughput.
+- [x] **11.8.7 [ANTIGRAVITY]** Display service health.
+- [x] **11.8.8 [ANTIGRAVITY]** Build the ML monitoring section.
+- [x] **11.8.9 [ANTIGRAVITY]** Display prediction distribution.
+- [x] **11.8.10 [ANTIGRAVITY]** Display confidence distribution.
+- [x] **11.8.11 [ANTIGRAVITY]** Display image drift measurements.
+- [x] **11.8.12 [ANTIGRAVITY]** Display reference-versus-incoming distributions.
+- [x] **11.8.13 [ANTIGRAVITY]** Display measured performance only when ground-truth labels are available.
+- [x] **11.8.14 [ANTIGRAVITY]** Add chart units, labels and time ranges.
+- [x] **11.8.15 [ANTIGRAVITY]** Add monitoring empty and error states.
+- [x] **11.8.16 [BOTH]** Verify monitoring values against Prometheus and the backend.
 
 ## 11.9 Build Retraining
 
-- [ ] **11.9.1 [ANTIGRAVITY]** Create the Retraining page route.
-- [ ] **11.9.2 [ANTIGRAVITY]** Connect the retraining API.
-- [ ] **11.9.3 [ANTIGRAVITY]** Display drift status.
-- [ ] **11.9.4 [ANTIGRAVITY]** Display retraining trigger reason.
-- [ ] **11.9.5 [ANTIGRAVITY]** Display dataset version.
-- [ ] **11.9.6 [ANTIGRAVITY]** Display retraining execution status.
-- [ ] **11.9.7 [ANTIGRAVITY]** Display evaluation result.
-- [ ] **11.9.8 [ANTIGRAVITY]** Display quality-gate status.
-- [ ] **11.9.9 [ANTIGRAVITY]** Display approval and deployment decisions.
-- [ ] **11.9.10 [ANTIGRAVITY]** Implement the retraining request action.
-- [ ] **11.9.11 [ANTIGRAVITY]** Add retraining confirmation.
-- [ ] **11.9.12 [ANTIGRAVITY]** Clearly distinguish requested, running, evaluated, approved and deployed states.
-- [ ] **11.9.13 [ANTIGRAVITY]** Prevent drift alerts from automatically deploying a new model.
-- [ ] **11.9.14 [BOTH]** Verify the page against a real Airflow retraining execution.
+- [x] **11.9.1 [ANTIGRAVITY]** Create the Retraining page route.
+- [x] **11.9.2 [ANTIGRAVITY]** Connect the retraining API.
+- [x] **11.9.3 [ANTIGRAVITY]** Display drift status.
+- [x] **11.9.4 [ANTIGRAVITY]** Display retraining trigger reason.
+- [x] **11.9.5 [ANTIGRAVITY]** Display dataset version.
+- [x] **11.9.6 [ANTIGRAVITY]** Display retraining execution status.
+- [x] **11.9.7 [ANTIGRAVITY]** Display evaluation result.
+- [x] **11.9.8 [ANTIGRAVITY]** Display quality-gate status.
+- [x] **11.9.9 [ANTIGRAVITY]** Display approval and deployment decisions.
+- [x] **11.9.10 [ANTIGRAVITY]** Implement the retraining request action.
+- [x] **11.9.11 [ANTIGRAVITY]** Add retraining confirmation.
+- [x] **11.9.12 [ANTIGRAVITY]** Clearly distinguish requested, running, evaluated, approved and deployed states.
+- [x] **11.9.13 [ANTIGRAVITY]** Prevent drift alerts from automatically deploying a new model.
+- [x] **11.9.14 [BOTH]** Verify the page against a real Airflow retraining execution.
 
 ## 11.10 Build Documentation
 
-- [ ] **11.10.1 [ANTIGRAVITY]** Create the Documentation page route.
-- [ ] **11.10.2 [ANTIGRAVITY]** Add the architecture documentation section.
-- [ ] **11.10.3 [ANTIGRAVITY]** Add the Data Card section.
-- [ ] **11.10.4 [ANTIGRAVITY]** Add the Model Card section.
-- [ ] **11.10.5 [ANTIGRAVITY]** Add the training methodology section.
-- [ ] **11.10.6 [ANTIGRAVITY]** Add the evaluation methodology section.
-- [ ] **11.10.7 [ANTIGRAVITY]** Add the API documentation section.
-- [ ] **11.10.8 [ANTIGRAVITY]** Add the known limitations section.
-- [ ] **11.10.9 [ANTIGRAVITY]** Verify documentation content against the actual implementation.
+- [x] **11.10.1 [ANTIGRAVITY]** Create the Documentation page route.
+- [x] **11.10.2 [ANTIGRAVITY]** Add the architecture documentation section.
+- [x] **11.10.3 [ANTIGRAVITY]** Add the Data Card section.
+- [x] **11.10.4 [ANTIGRAVITY]** Add the Model Card section.
+- [x] **11.10.5 [ANTIGRAVITY]** Add the training methodology section.
+- [x] **11.10.6 [ANTIGRAVITY]** Add the evaluation methodology section.
+- [x] **11.10.7 [ANTIGRAVITY]** Add the API documentation section.
+- [x] **11.10.8 [ANTIGRAVITY]** Add the known limitations section.
+- [x] **11.10.9 [ANTIGRAVITY]** Verify documentation content against the actual implementation.
 
 **Verification:** All nine dashboard routes exist and display actual service data or explicit empty/error states.
 

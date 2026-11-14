@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  /* VISIONqc Industrial Palette Tokens (DESIGN.md) */
+  --ink: #111820;
+  --graphite: #202A35;
+  --steel-blue: #476985;
+  --muted-blue: #8BA4B8;
+  --paper: #F3F4F6;
+  --white: #FFFFFF;
+  --border: #D8DEE4;
+  --muted-grey: #627282;
+  --light-grey: #E5E9EE;
+
+  /* Semantic Status Tokens */
+  --status-ok: #1E7E4A;
+  --status-ok-bg: #E8F5EE;
+  --status-defective: #B83232;
+  --status-defective-bg: #FBEBEB;
+  --status-review: #C47A15;
+  --status-review-bg: #FEF6EB;
+  --status-running: #2463EB;
+  --status-running-bg: #EBF2FE;
+
+  /* Baseline Canvas */
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: var(--white);
+  --card-foreground: var(--ink);
+  --sidebar-bg: var(--graphite);
+  --sidebar-text: #F3F4F6;
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-graphite: var(--graphite);
+  --color-steel-blue: var(--steel-blue);
+  --color-muted-blue: var(--muted-blue);
+  --color-paper: var(--paper);
+  --color-white: var(--white);
+  --color-border: var(--border);
+  --color-muted-grey: var(--muted-grey);
+  --color-light-grey: var(--light-grey);
+
+  --color-status-ok: var(--status-ok);
+  --color-status-ok-bg: var(--status-ok-bg);
+  --color-status-defective: var(--status-defective);
+  --color-status-defective-bg: var(--status-defective-bg);
+  --color-status-review: var(--status-review);
+  --color-status-review-bg: var(--status-review-bg);
+  --color-status-running: var(--status-running);
+  --color-status-running-bg: var(--status-running-bg);
+
+  --font-sans: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Industrial Utility Classes */
+.table-cell-dense {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+}

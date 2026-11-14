@@ -230,34 +230,34 @@ These values must be checked against the actual downloaded dataset.
 
 ## 3.1 Build the custom CNN
 
-- [ ] **3.1.1 [ANTIGRAVITY]** Create `ml/models/custom_cnn.py`.
-- [ ] **3.1.2 [ANTIGRAVITY]** Implement the custom CNN architecture.
-- [ ] **3.1.3 [ANTIGRAVITY]** Implement the binary classification output.
-- [ ] **3.1.4 [ANTIGRAVITY]** Implement the training dataset loader.
-- [ ] **3.1.5 [ANTIGRAVITY]** Implement the validation dataset loader.
-- [ ] **3.1.6 [ANTIGRAVITY]** Implement the training loop.
-- [ ] **3.1.7 [ANTIGRAVITY]** Implement validation evaluation.
-- [ ] **3.1.8 [ANTIGRAVITY]** Implement checkpoint saving.
-- [ ] **3.1.9 [ANTIGRAVITY]** Implement reproducibility controls.
-- [ ] **3.1.10 [ANTIGRAVITY]** Add class-imbalance handling as a configurable training option.
-- [ ] **3.1.11 [ANTIGRAVITY]** Add training unit tests.
-- [ ] **3.1.12 [BOTH]** Run a small smoke-training experiment.
-- [ ] **3.1.13 [BOTH]** Verify the training loss and validation loop execute correctly.
+- [x] **3.1.1 [ANTIGRAVITY]** Create `ml/models/custom_cnn.py`.
+- [x] **3.1.2 [ANTIGRAVITY]** Implement the custom CNN architecture.
+- [x] **3.1.3 [ANTIGRAVITY]** Implement the binary classification output.
+- [x] **3.1.4 [ANTIGRAVITY]** Implement the training dataset loader.
+- [x] **3.1.5 [ANTIGRAVITY]** Implement the validation dataset loader.
+- [x] **3.1.6 [ANTIGRAVITY]** Implement the training loop.
+- [x] **3.1.7 [ANTIGRAVITY]** Implement validation evaluation.
+- [x] **3.1.8 [ANTIGRAVITY]** Implement checkpoint saving.
+- [x] **3.1.9 [ANTIGRAVITY]** Implement reproducibility controls.
+- [x] **3.1.10 [ANTIGRAVITY]** Add class-imbalance handling as a configurable training option.
+- [x] **3.1.11 [ANTIGRAVITY]** Add training unit tests.
+- [x] **3.1.12 [BOTH]** Run a small smoke-training experiment.
+- [x] **3.1.13 [BOTH]** Verify the training loss and validation loop execute correctly.
 
 ## 3.2 Evaluate the baseline
 
-- [ ] **3.2.1 [ANTIGRAVITY]** Implement accuracy calculation.
-- [ ] **3.2.2 [ANTIGRAVITY]** Implement precision calculation.
-- [ ] **3.2.3 [ANTIGRAVITY]** Implement defect recall calculation.
-- [ ] **3.2.4 [ANTIGRAVITY]** Implement F1-score calculation.
-- [ ] **3.2.5 [ANTIGRAVITY]** Implement ROC-AUC calculation.
-- [ ] **3.2.6 [ANTIGRAVITY]** Implement PR-AUC calculation.
-- [ ] **3.2.7 [ANTIGRAVITY]** Implement false-negative-rate calculation.
-- [ ] **3.2.8 [ANTIGRAVITY]** Implement confusion-matrix generation.
-- [ ] **3.2.9 [ANTIGRAVITY]** Implement threshold evaluation.
-- [ ] **3.2.10 [ANTIGRAVITY]** Generate the baseline evaluation report.
-- [ ] **3.2.11 [BOTH]** Run the baseline training experiment.
-- [ ] **3.2.12 [BOTH]** Review the baseline evaluation report.
+- [x] **3.2.1 [ANTIGRAVITY]** Implement accuracy calculation.
+- [x] **3.2.2 [ANTIGRAVITY]** Implement precision calculation.
+- [x] **3.2.3 [ANTIGRAVITY]** Implement defect recall calculation.
+- [x] **3.2.4 [ANTIGRAVITY]** Implement F1-score calculation.
+- [x] **3.2.5 [ANTIGRAVITY]** Implement ROC-AUC calculation.
+- [x] **3.2.6 [ANTIGRAVITY]** Implement PR-AUC calculation.
+- [x] **3.2.7 [ANTIGRAVITY]** Implement false-negative-rate calculation.
+- [x] **3.2.8 [ANTIGRAVITY]** Implement confusion-matrix generation.
+- [x] **3.2.9 [ANTIGRAVITY]** Implement threshold evaluation.
+- [x] **3.2.10 [ANTIGRAVITY]** Generate the baseline evaluation report.
+- [x] **3.2.11 [BOTH]** Run the baseline training experiment.
+- [x] **3.2.12 [BOTH]** Review the baseline evaluation report.
 
 **Verification:** The custom CNN trains, saves a checkpoint and produces reproducible evaluation metrics.
 

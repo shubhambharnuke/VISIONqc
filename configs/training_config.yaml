@@ -1,0 +1,35 @@
+# VisionQC Training Configuration
+
+general:
+  device: "cpu"          # "cpu" or "cuda"
+  seed: 42
+  num_workers: 0
+
+custom_cnn:
+  epochs: 10
+  batch_size: 32
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  optimizer: "adam"      # "adam" or "sgd"
+  pos_weight: 1.0        # Weight for DEFECTIVE class in BCEWithLogitsLoss (1.0 = standard)
+  save_path: "ml/models/saved/custom_cnn_baseline.pth"
+
+resnet18:
+  epochs: 10
+  batch_size: 32
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  optimizer: "adam"
+  pretrained: true
+  freeze_backbone: false
+  save_path: "ml/models/saved/resnet18_candidate.pth"
+
+efficientnet_b0:
+  epochs: 10
+  batch_size: 32
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  optimizer: "adam"
+  pretrained: true
+  freeze_backbone: false
+  save_path: "ml/models/saved/efficientnet_b0_candidate.pth"

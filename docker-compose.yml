@@ -1,0 +1,75 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: visionqc-postgres
+    restart: always
+    environment:
+      POSTGRES_DB: visionqc_app
+      POSTGRES_USER: visionqc
+      POSTGRES_PASSWORD: visionqc_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U visionqc -d visionqc_app"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: visionqc-backend
+    restart: always
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql+psycopg://visionqc:visionqc_password@postgres:5432/visionqc_app
+      APP_ENV: production
+      ACTIVE_MODEL_PATH: ml/models/saved/efficientnet_b0.pth
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./static/gradcam:/app/static/gradcam
+      - ./ml/models/saved:/app/ml/models/saved
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: visionqc-frontend
+    restart: always
+    depends_on:
+      - backend
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8000
+    ports:
+      - "3000:3000"
+
+  prometheus:
+    image: prom/prometheus:v2.51.0
+    container_name: visionqc-prometheus
+    restart: always
+    volumes:
+      - ./monitoring/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+
+  grafana:
+    image: grafana/grafana:10.4.0
+    container_name: visionqc-grafana
+    restart: always
+    depends_on:
+      - prometheus
+    ports:
+      - "3001:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - ./monitoring/grafana/provisioning:/etc/grafana/provisioning
+
+volumes:
+  postgres_data:

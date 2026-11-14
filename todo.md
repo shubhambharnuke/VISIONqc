@@ -847,91 +847,91 @@ Create the training DAG using reusable modules from `ml/`. Do not place the comp
 
 ## 12.1 Prometheus metrics
 
-- [ ] **12.1.1 [ANTIGRAVITY]** Configure the Prometheus service.
-- [ ] **12.1.2 [ANTIGRAVITY]** Expose the FastAPI metrics endpoint.
-- [ ] **12.1.3 [ANTIGRAVITY]** Add a request counter.
-- [ ] **12.1.4 [ANTIGRAVITY]** Add an error counter.
-- [ ] **12.1.5 [ANTIGRAVITY]** Add an inference-latency histogram.
-- [ ] **12.1.6 [ANTIGRAVITY]** Add a prediction-class counter.
-- [ ] **12.1.7 [ANTIGRAVITY]** Add a confidence-distribution metric.
-- [ ] **12.1.8 [ANTIGRAVITY]** Add a service-health metric.
-- [ ] **12.1.9 [ANTIGRAVITY]** Avoid high-cardinality labels such as unique image IDs.
-- [ ] **12.1.10 [ANTIGRAVITY]** Configure Prometheus scraping.
-- [ ] **12.1.11 [BOTH]** Verify that Prometheus receives backend metrics.
+- [x] **12.1.1 [ANTIGRAVITY]** Configure the Prometheus service.
+- [x] **12.1.2 [ANTIGRAVITY]** Expose the FastAPI metrics endpoint.
+- [x] **12.1.3 [ANTIGRAVITY]** Add a request counter.
+- [x] **12.1.4 [ANTIGRAVITY]** Add an error counter.
+- [x] **12.1.5 [ANTIGRAVITY]** Add an inference-latency histogram.
+- [x] **12.1.6 [ANTIGRAVITY]** Add a prediction-class counter.
+- [x] **12.1.7 [ANTIGRAVITY]** Add a confidence-distribution metric.
+- [x] **12.1.8 [ANTIGRAVITY]** Add a service-health metric.
+- [x] **12.1.9 [ANTIGRAVITY]** Avoid high-cardinality labels such as unique image IDs.
+- [x] **12.1.10 [ANTIGRAVITY]** Configure Prometheus scraping.
+- [x] **12.1.11 [BOTH]** Verify that Prometheus receives backend metrics.
 
 ## 12.2 Grafana
 
-- [ ] **12.2.1 [ANTIGRAVITY]** Configure the Grafana service.
-- [ ] **12.2.2 [ANTIGRAVITY]** Configure Prometheus as a data source.
-- [ ] **12.2.3 [ANTIGRAVITY]** Create the operational dashboard.
-- [ ] **12.2.4 [ANTIGRAVITY]** Add request-volume visualization.
-- [ ] **12.2.5 [ANTIGRAVITY]** Add error-rate visualization.
-- [ ] **12.2.6 [ANTIGRAVITY]** Add latency visualization.
-- [ ] **12.2.7 [ANTIGRAVITY]** Add throughput visualization.
-- [ ] **12.2.8 [ANTIGRAVITY]** Create the ML monitoring dashboard.
-- [ ] **12.2.9 [ANTIGRAVITY]** Add prediction-distribution visualization.
-- [ ] **12.2.10 [ANTIGRAVITY]** Add confidence-distribution visualization.
-- [ ] **12.2.11 [ANTIGRAVITY]** Add drift visualization.
-- [ ] **12.2.12 [BOTH]** Verify both dashboards using generated real application traffic.
+- [x] **12.2.1 [ANTIGRAVITY]** Configure the Grafana service.
+- [x] **12.2.2 [ANTIGRAVITY]** Configure Prometheus as a data source.
+- [x] **12.2.3 [ANTIGRAVITY]** Create the operational dashboard.
+- [x] **12.2.4 [ANTIGRAVITY]** Add request-volume visualization.
+- [x] **12.2.5 [ANTIGRAVITY]** Add error-rate visualization.
+- [x] **12.2.6 [ANTIGRAVITY]** Add latency visualization.
+- [x] **12.2.7 [ANTIGRAVITY]** Add throughput visualization.
+- [x] **12.2.8 [ANTIGRAVITY]** Create the ML monitoring dashboard.
+- [x] **12.2.9 [ANTIGRAVITY]** Add prediction-distribution visualization.
+- [x] **12.2.10 [ANTIGRAVITY]** Add confidence-distribution visualization.
+- [x] **12.2.11 [ANTIGRAVITY]** Add drift visualization.
+- [x] **12.2.12 [BOTH]** Verify both dashboards using generated real application traffic.
 
 ## 12.3 Implement drift feature extraction
 
-- [ ] **12.3.1 [ANTIGRAVITY]** Create the image-feature extraction module.
-- [ ] **12.3.2 [ANTIGRAVITY]** Implement mean-brightness extraction.
-- [ ] **12.3.3 [ANTIGRAVITY]** Implement intensity-standard-deviation extraction.
-- [ ] **12.3.4 [ANTIGRAVITY]** Implement contrast-statistic extraction.
-- [ ] **12.3.5 [ANTIGRAVITY]** Implement image-sharpness extraction.
-- [ ] **12.3.6 [ANTIGRAVITY]** Implement histogram-feature extraction.
-- [ ] **12.3.7 [ANTIGRAVITY]** Add feature-extraction tests.
-- [ ] **12.3.8 [ANTIGRAVITY]** Generate reference feature distributions from the training reference data.
+- [x] **12.3.1 [ANTIGRAVITY]** Create the image-feature extraction module.
+- [x] **12.3.2 [ANTIGRAVITY]** Implement mean-brightness extraction.
+- [x] **12.3.3 [ANTIGRAVITY]** Implement intensity-standard-deviation extraction.
+- [x] **12.3.4 [ANTIGRAVITY]** Implement contrast-statistic extraction.
+- [x] **12.3.5 [ANTIGRAVITY]** Implement image-sharpness extraction.
+- [x] **12.3.6 [ANTIGRAVITY]** Implement histogram-feature extraction.
+- [x] **12.3.7 [ANTIGRAVITY]** Add feature-extraction tests.
+- [x] **12.3.8 [ANTIGRAVITY]** Generate reference feature distributions from the training reference data.
 
 ## 12.4 Implement drift detection
 
-- [ ] **12.4.1 [ANTIGRAVITY]** Create the drift detection module.
-- [ ] **12.4.2 [ANTIGRAVITY]** Implement incoming-batch feature extraction.
-- [ ] **12.4.3 [ANTIGRAVITY]** Implement the selected statistical comparison method.
-- [ ] **12.4.4 [ANTIGRAVITY]** Implement configurable drift thresholds.
-- [ ] **12.4.5 [ANTIGRAVITY]** Implement a configurable minimum observation count.
-- [ ] **12.4.6 [ANTIGRAVITY]** Implement a configurable observation window.
-- [ ] **12.4.7 [ANTIGRAVITY]** Implement drift severity classification.
-- [ ] **12.4.8 [ANTIGRAVITY]** Persist drift reports in PostgreSQL.
-- [ ] **12.4.9 [ANTIGRAVITY]** Expose drift history through the API.
-- [ ] **12.4.10 [ANTIGRAVITY]** Expose drift metrics to Prometheus.
-- [ ] **12.4.11 [ANTIGRAVITY]** Add drift unit tests.
-- [ ] **12.4.12 [BOTH]** Run drift detection against an unchanged reference batch.
-- [ ] **12.4.13 [BOTH]** Run drift detection against a brightness-shifted batch.
-- [ ] **12.4.14 [BOTH]** Run drift detection against a contrast-shifted batch.
-- [ ] **12.4.15 [BOTH]** Run drift detection against a noisy batch.
-- [ ] **12.4.16 [BOTH]** Run drift detection against a blurred batch.
-- [ ] **12.4.17 [BOTH]** Verify the recorded results and thresholds.
+- [x] **12.4.1 [ANTIGRAVITY]** Create the drift detection module.
+- [x] **12.4.2 [ANTIGRAVITY]** Implement incoming-batch feature extraction.
+- [x] **12.4.3 [ANTIGRAVITY]** Implement the selected statistical comparison method.
+- [x] **12.4.4 [ANTIGRAVITY]** Implement configurable drift thresholds.
+- [x] **12.4.5 [ANTIGRAVITY]** Implement a configurable minimum observation count.
+- [x] **12.4.6 [ANTIGRAVITY]** Implement a configurable observation window.
+- [x] **12.4.7 [ANTIGRAVITY]** Implement drift severity classification.
+- [x] **12.4.8 [ANTIGRAVITY]** Persist drift reports in PostgreSQL.
+- [x] **12.4.9 [ANTIGRAVITY]** Expose drift history through the API.
+- [x] **12.4.10 [ANTIGRAVITY]** Expose drift metrics to Prometheus.
+- [x] **12.4.11 [ANTIGRAVITY]** Add drift unit tests.
+- [x] **12.4.12 [BOTH]** Run drift detection against an unchanged reference batch.
+- [x] **12.4.13 [BOTH]** Run drift detection against a brightness-shifted batch.
+- [x] **12.4.14 [BOTH]** Run drift detection against a contrast-shifted batch.
+- [x] **12.4.15 [BOTH]** Run drift detection against a noisy batch.
+- [x] **12.4.16 [BOTH]** Run drift detection against a blurred batch.
+- [x] **12.4.17 [BOTH]** Verify the recorded results and thresholds.
 
 ## 12.5 Separate drift from model performance
 
-- [ ] **12.5.1 [ANTIGRAVITY]** Define data drift as a change in input-data distributions.
-- [ ] **12.5.2 [ANTIGRAVITY]** Define prediction drift as a change in model-output distributions.
-- [ ] **12.5.3 [ANTIGRAVITY]** Define measured performance degradation using labelled evaluation data.
-- [ ] **12.5.4 [ANTIGRAVITY]** Add support for storing ground-truth labels when available.
-- [ ] **12.5.5 [ANTIGRAVITY]** Prevent the application from reporting accuracy degradation without labels.
-- [ ] **12.5.6 [ANTIGRAVITY]** Document the limitations of unsupervised drift detection.
+- [x] **12.5.1 [ANTIGRAVITY]** Define data drift as a change in input-data distributions.
+- [x] **12.5.2 [ANTIGRAVITY]** Define prediction drift as a change in model-output distributions.
+- [x] **12.5.3 [ANTIGRAVITY]** Define measured performance degradation using labelled evaluation data.
+- [x] **12.5.4 [ANTIGRAVITY]** Add support for storing ground-truth labels when available.
+- [x] **12.5.5 [ANTIGRAVITY]** Prevent the application from reporting accuracy degradation without labels.
+- [x] **12.5.6 [ANTIGRAVITY]** Document the limitations of unsupervised drift detection.
 
 ## 12.6 Implement controlled retraining
 
-- [ ] **12.6.1 [ANTIGRAVITY]** Implement the retraining request service.
-- [ ] **12.6.2 [ANTIGRAVITY]** Connect the backend to the Airflow API.
-- [ ] **12.6.3 [ANTIGRAVITY]** Implement retraining-job persistence.
-- [ ] **12.6.4 [ANTIGRAVITY]** Implement retraining status synchronization.
-- [ ] **12.6.5 [ANTIGRAVITY]** Implement the retraining quality gate.
-- [ ] **12.6.6 [ANTIGRAVITY]** Require the candidate model to meet the documented evaluation criteria.
-- [ ] **12.6.7 [ANTIGRAVITY]** Require an explicit approval decision before promotion.
-- [ ] **12.6.8 [ANTIGRAVITY]** Implement controlled model promotion.
-- [ ] **12.6.9 [ANTIGRAVITY]** Record promotion decisions in the audit log.
-- [ ] **12.6.10 [ANTIGRAVITY]** Add retraining service tests.
-- [ ] **12.6.11 [BOTH]** Trigger retraining through the application.
-- [ ] **12.6.12 [BOTH]** Verify the corresponding Airflow run.
-- [ ] **12.6.13 [BOTH]** Verify the new MLflow experiment.
-- [ ] **12.6.14 [BOTH]** Verify the quality-gate result.
-- [ ] **12.6.15 [BOTH]** Verify that a failed candidate cannot replace the active model.
-- [ ] **12.6.16 [BOTH]** Verify that an approved candidate can be promoted through the controlled action.
+- [x] **12.6.1 [ANTIGRAVITY]** Implement the retraining request service.
+- [x] **12.6.2 [ANTIGRAVITY]** Connect the backend to the Airflow API.
+- [x] **12.6.3 [ANTIGRAVITY]** Implement retraining-job persistence.
+- [x] **12.6.4 [ANTIGRAVITY]** Implement retraining status synchronization.
+- [x] **12.6.5 [ANTIGRAVITY]** Implement the retraining quality gate.
+- [x] **12.6.6 [ANTIGRAVITY]** Require the candidate model to meet the documented evaluation criteria.
+- [x] **12.6.7 [ANTIGRAVITY]** Require an explicit approval decision before promotion.
+- [x] **12.6.8 [ANTIGRAVITY]** Implement controlled model promotion.
+- [x] **12.6.9 [ANTIGRAVITY]** Record promotion decisions in the audit log.
+- [x] **12.6.10 [ANTIGRAVITY]** Add retraining service tests.
+- [x] **12.6.11 [BOTH]** Trigger retraining through the application.
+- [x] **12.6.12 [BOTH]** Verify the corresponding Airflow run.
+- [x] **12.6.13 [BOTH]** Verify the new MLflow experiment.
+- [x] **12.6.14 [BOTH]** Verify the quality-gate result.
+- [x] **12.6.15 [BOTH]** Verify that a failed candidate cannot replace the active model.
+- [x] **12.6.16 [BOTH]** Verify that an approved candidate can be promoted through the controlled action.
 
 **Verification:** Drift can be detected and reported, but no model can be deployed solely because a drift alert occurred.
 
@@ -941,27 +941,27 @@ Create the training DAG using reusable modules from `ml/`. Do not place the comp
 
 **Objective:** Protect service boundaries and prevent unsafe or misleading operations.
 
-- [ ] **13.1 [ANTIGRAVITY]** Review all environment-variable usage.
-- [ ] **13.2 [ANTIGRAVITY]** Remove hardcoded credentials from source code.
-- [ ] **13.3 [ANTIGRAVITY]** Confirm secrets are absent from frontend public variables.
-- [ ] **13.4 [ANTIGRAVITY]** Validate image uploads by file content and decoding.
-- [ ] **13.5 [ANTIGRAVITY]** Enforce upload size limits.
-- [ ] **13.6 [ANTIGRAVITY]** Restrict accepted image formats.
-- [ ] **13.7 [ANTIGRAVITY]** Implement safe temporary-file cleanup.
-- [ ] **13.8 [ANTIGRAVITY]** Restrict destructive model operations to controlled application actions.
-- [ ] **13.9 [ANTIGRAVITY]** Protect retraining and promotion operations against unintended requests.
-- [ ] **13.10 [ANTIGRAVITY]** Add audit records for model promotion.
-- [ ] **13.11 [ANTIGRAVITY]** Add audit records for retraining requests.
-- [ ] **13.12 [ANTIGRAVITY]** Restrict direct exposure of Airflow administrative interfaces.
-- [ ] **13.13 [ANTIGRAVITY]** Restrict direct exposure of MLflow administrative interfaces.
-- [ ] **13.14 [ANTIGRAVITY]** Configure safe API error responses.
-- [ ] **13.15 [ANTIGRAVITY]** Add database connection-failure handling.
-- [ ] **13.16 [ANTIGRAVITY]** Add dependency and container version checks.
-- [ ] **13.17 [ANTIGRAVITY]** Document the local development security model.
-- [ ] **13.18 [BOTH]** Test invalid file uploads.
-- [ ] **13.19 [BOTH]** Test oversized file uploads.
-- [ ] **13.20 [BOTH]** Test unavailable database behavior.
-- [ ] **13.21 [BOTH]** Test unavailable MLflow and Airflow behavior.
+- [x] **13.1 [ANTIGRAVITY]** Review all environment-variable usage.
+- [x] **13.2 [ANTIGRAVITY]** Remove hardcoded credentials from source code.
+- [x] **13.3 [ANTIGRAVITY]** Confirm secrets are absent from frontend public variables.
+- [x] **13.4 [ANTIGRAVITY]** Validate image uploads by file content and decoding.
+- [x] **13.5 [ANTIGRAVITY]** Enforce upload size limits.
+- [x] **13.6 [ANTIGRAVITY]** Restrict accepted image formats.
+- [x] **13.7 [ANTIGRAVITY]** Implement safe temporary-file cleanup.
+- [x] **13.8 [ANTIGRAVITY]** Restrict destructive model operations to controlled application actions.
+- [x] **13.9 [ANTIGRAVITY]** Protect retraining and promotion operations against unintended requests.
+- [x] **13.10 [ANTIGRAVITY]** Add audit records for model promotion.
+- [x] **13.11 [ANTIGRAVITY]** Add audit records for retraining requests.
+- [x] **13.12 [ANTIGRAVITY]** Restrict direct exposure of Airflow administrative interfaces.
+- [x] **13.13 [ANTIGRAVITY]** Restrict direct exposure of MLflow administrative interfaces.
+- [x] **13.14 [ANTIGRAVITY]** Configure safe API error responses.
+- [x] **13.15 [ANTIGRAVITY]** Add database connection-failure handling.
+- [x] **13.16 [ANTIGRAVITY]** Add dependency and container version checks.
+- [x] **13.17 [ANTIGRAVITY]** Document the local development security model.
+- [x] **13.18 [BOTH]** Test invalid file uploads.
+- [x] **13.19 [BOTH]** Test oversized file uploads.
+- [x] **13.20 [BOTH]** Test unavailable database behavior.
+- [x] **13.21 [BOTH]** Test unavailable MLflow and Airflow behavior.
 
 **Verification:** Invalid inputs and unavailable dependencies produce controlled errors, not application crashes or misleading success states.
 
@@ -973,65 +973,65 @@ Create the training DAG using reusable modules from `ml/`. Do not place the comp
 
 ## 14.1 Containerize individual applications
 
-- [ ] **14.1.1 [ANTIGRAVITY]** Create the backend Dockerfile.
-- [ ] **14.1.2 [ANTIGRAVITY]** Build the backend image.
-- [ ] **14.1.3 [BOTH]** Verify the backend container starts.
-- [ ] **14.1.4 [ANTIGRAVITY]** Create the frontend Dockerfile.
-- [ ] **14.1.5 [ANTIGRAVITY]** Build the frontend image.
-- [ ] **14.1.6 [BOTH]** Verify the frontend container starts.
-- [ ] **14.1.7 [ANTIGRAVITY]** Define the PostgreSQL container configuration.
-- [ ] **14.1.8 [ANTIGRAVITY]** Define the MLflow container configuration.
-- [ ] **14.1.9 [ANTIGRAVITY]** Define the Airflow container configuration.
-- [ ] **14.1.10 [ANTIGRAVITY]** Define the Prometheus container configuration.
-- [ ] **14.1.11 [ANTIGRAVITY]** Define the Grafana container configuration.
+- [x] **14.1.1 [ANTIGRAVITY]** Create the backend Dockerfile.
+- [x] **14.1.2 [ANTIGRAVITY]** Build the backend image.
+- [x] **14.1.3 [BOTH]** Verify the backend container starts.
+- [x] **14.1.4 [ANTIGRAVITY]** Create the frontend Dockerfile.
+- [x] **14.1.5 [ANTIGRAVITY]** Build the frontend image.
+- [x] **14.1.6 [BOTH]** Verify the frontend container starts.
+- [x] **14.1.7 [ANTIGRAVITY]** Define the PostgreSQL container configuration.
+- [x] **14.1.8 [ANTIGRAVITY]** Define the MLflow container configuration.
+- [x] **14.1.9 [ANTIGRAVITY]** Define the Airflow container configuration.
+- [x] **14.1.10 [ANTIGRAVITY]** Define the Prometheus container configuration.
+- [x] **14.1.11 [ANTIGRAVITY]** Define the Grafana container configuration.
 
 ## 14.2 Build Docker Compose
 
-- [ ] **14.2.1 [ANTIGRAVITY]** Create the root `docker-compose.yml`.
-- [ ] **14.2.2 [ANTIGRAVITY]** Add the PostgreSQL service.
-- [ ] **14.2.3 [ANTIGRAVITY]** Add the backend service.
-- [ ] **14.2.4 [ANTIGRAVITY]** Add the frontend service.
-- [ ] **14.2.5 [ANTIGRAVITY]** Add the MLflow service.
-- [ ] **14.2.6 [ANTIGRAVITY]** Add the Airflow services required by the selected release and executor.
-- [ ] **14.2.7 [ANTIGRAVITY]** Add the Prometheus service.
-- [ ] **14.2.8 [ANTIGRAVITY]** Add the Grafana service.
-- [ ] **14.2.9 [ANTIGRAVITY]** Configure the Docker network.
-- [ ] **14.2.10 [ANTIGRAVITY]** Configure persistent PostgreSQL storage.
-- [ ] **14.2.11 [ANTIGRAVITY]** Configure persistent MLflow artifact storage.
-- [ ] **14.2.12 [ANTIGRAVITY]** Configure persistent Airflow logs.
-- [ ] **14.2.13 [ANTIGRAVITY]** Configure persistent Grafana data.
-- [ ] **14.2.14 [ANTIGRAVITY]** Configure persistent Prometheus data.
-- [ ] **14.2.15 [ANTIGRAVITY]** Configure health checks.
-- [ ] **14.2.16 [ANTIGRAVITY]** Configure service dependencies.
-- [ ] **14.2.17 [ANTIGRAVITY]** Configure service-specific environment variables.
-- [ ] **14.2.18 [ANTIGRAVITY]** Verify internal service URLs use Docker service names.
-- [ ] **14.2.19 [ANTIGRAVITY]** Document host-accessible ports.
-- [ ] **14.2.20 [ANTIGRAVITY]** Add separate Compose profiles if needed for resource-efficient development.
-- [ ] **14.2.21 [BOTH]** Start PostgreSQL through Compose.
-- [ ] **14.2.22 [BOTH]** Verify PostgreSQL health.
-- [ ] **14.2.23 [BOTH]** Start the backend through Compose.
-- [ ] **14.2.24 [BOTH]** Verify backend health.
-- [ ] **14.2.25 [BOTH]** Start the frontend through Compose.
-- [ ] **14.2.26 [BOTH]** Verify frontend-to-backend communication.
-- [ ] **14.2.27 [BOTH]** Start MLflow through Compose.
-- [ ] **14.2.28 [BOTH]** Verify MLflow connectivity.
-- [ ] **14.2.29 [BOTH]** Start Airflow through Compose.
-- [ ] **14.2.30 [BOTH]** Verify Airflow connectivity.
-- [ ] **14.2.31 [BOTH]** Start Prometheus through Compose.
-- [ ] **14.2.32 [BOTH]** Verify Prometheus scraping.
-- [ ] **14.2.33 [BOTH]** Start Grafana through Compose.
-- [ ] **14.2.34 [BOTH]** Verify Grafana dashboards.
+- [x] **14.2.1 [ANTIGRAVITY]** Create the root `docker-compose.yml`.
+- [x] **14.2.2 [ANTIGRAVITY]** Add the PostgreSQL service.
+- [x] **14.2.3 [ANTIGRAVITY]** Add the backend service.
+- [x] **14.2.4 [ANTIGRAVITY]** Add the frontend service.
+- [x] **14.2.5 [ANTIGRAVITY]** Add the MLflow service.
+- [x] **14.2.6 [ANTIGRAVITY]** Add the Airflow services required by the selected release and executor.
+- [x] **14.2.7 [ANTIGRAVITY]** Add the Prometheus service.
+- [x] **14.2.8 [ANTIGRAVITY]** Add the Grafana service.
+- [x] **14.2.9 [ANTIGRAVITY]** Configure the Docker network.
+- [x] **14.2.10 [ANTIGRAVITY]** Configure persistent PostgreSQL storage.
+- [x] **14.2.11 [ANTIGRAVITY]** Configure persistent MLflow artifact storage.
+- [x] **14.2.12 [ANTIGRAVITY]** Configure persistent Airflow logs.
+- [x] **14.2.13 [ANTIGRAVITY]** Configure persistent Grafana data.
+- [x] **14.2.14 [ANTIGRAVITY]** Configure persistent Prometheus data.
+- [x] **14.2.15 [ANTIGRAVITY]** Configure health checks.
+- [x] **14.2.16 [ANTIGRAVITY]** Configure service dependencies.
+- [x] **14.2.17 [ANTIGRAVITY]** Configure service-specific environment variables.
+- [x] **14.2.18 [ANTIGRAVITY]** Verify internal service URLs use Docker service names.
+- [x] **14.2.19 [ANTIGRAVITY]** Document host-accessible ports.
+- [x] **14.2.20 [ANTIGRAVITY]** Add separate Compose profiles if needed for resource-efficient development.
+- [x] **14.2.21 [BOTH]** Start PostgreSQL through Compose.
+- [x] **14.2.22 [BOTH]** Verify PostgreSQL health.
+- [x] **14.2.23 [BOTH]** Start the backend through Compose.
+- [x] **14.2.24 [BOTH]** Verify backend health.
+- [x] **14.2.25 [BOTH]** Start the frontend through Compose.
+- [x] **14.2.26 [BOTH]** Verify frontend-to-backend communication.
+- [x] **14.2.27 [BOTH]** Start MLflow through Compose.
+- [x] **14.2.28 [BOTH]** Verify MLflow connectivity.
+- [x] **14.2.29 [BOTH]** Start Airflow through Compose.
+- [x] **14.2.30 [BOTH]** Verify Airflow connectivity.
+- [x] **14.2.31 [BOTH]** Start Prometheus through Compose.
+- [x] **14.2.32 [BOTH]** Verify Prometheus scraping.
+- [x] **14.2.33 [BOTH]** Start Grafana through Compose.
+- [x] **14.2.34 [BOTH]** Verify Grafana dashboards.
 
 ## 14.3 Verify full local startup
 
-- [ ] **14.3.1 [BOTH]** Stop the complete Compose environment.
-- [ ] **14.3.2 [BOTH]** Start the required full local environment using the documented command.
-- [ ] **14.3.3 [BOTH]** Verify every required service becomes healthy.
-- [ ] **14.3.4 [BOTH]** Verify persistent database records survive a restart.
-- [ ] **14.3.5 [BOTH]** Verify MLflow artifacts survive a restart.
-- [ ] **14.3.6 [BOTH]** Verify Airflow execution history survives a restart.
-- [ ] **14.3.7 [ANTIGRAVITY]** Document startup, shutdown and reset commands.
-- [ ] **14.3.8 [BOTH]** Verify the project can be started using only the documented instructions.
+- [x] **14.3.1 [BOTH]** Stop the complete Compose environment.
+- [x] **14.3.2 [BOTH]** Start the required full local environment using the documented command.
+- [x] **14.3.3 [BOTH]** Verify every required service becomes healthy.
+- [x] **14.3.4 [BOTH]** Verify persistent database records survive a restart.
+- [x] **14.3.5 [BOTH]** Verify MLflow artifacts survive a restart.
+- [x] **14.3.6 [BOTH]** Verify Airflow execution history survives a restart.
+- [x] **14.3.7 [ANTIGRAVITY]** Document startup, shutdown and reset commands.
+- [x] **14.3.8 [BOTH]** Verify the project can be started using only the documented instructions.
 
 **Verification:** The complete local demonstration runs through Docker Compose without undocumented manual service setup.
 
@@ -1043,61 +1043,61 @@ Create the training DAG using reusable modules from `ml/`. Do not place the comp
 
 ## 15.1 Backend tests
 
-- [ ] **15.1.1 [ANTIGRAVITY]** Configure pytest.
-- [ ] **15.1.2 [ANTIGRAVITY]** Add backend unit tests.
-- [ ] **15.1.3 [ANTIGRAVITY]** Add database integration tests.
-- [ ] **15.1.4 [ANTIGRAVITY]** Add API endpoint tests.
-- [ ] **15.1.5 [ANTIGRAVITY]** Add invalid-upload tests.
-- [ ] **15.1.6 [ANTIGRAVITY]** Add model-loading tests.
-- [ ] **15.1.7 [ANTIGRAVITY]** Add inference-response tests.
-- [ ] **15.1.8 [ANTIGRAVITY]** Run the backend test suite.
+- [x] **15.1.1 [ANTIGRAVITY]** Configure pytest.
+- [x] **15.1.2 [ANTIGRAVITY]** Add backend unit tests.
+- [x] **15.1.3 [ANTIGRAVITY]** Add database integration tests.
+- [x] **15.1.4 [ANTIGRAVITY]** Add API endpoint tests.
+- [x] **15.1.5 [ANTIGRAVITY]** Add invalid-upload tests.
+- [x] **15.1.6 [ANTIGRAVITY]** Add model-loading tests.
+- [x] **15.1.7 [ANTIGRAVITY]** Add inference-response tests.
+- [x] **15.1.8 [ANTIGRAVITY]** Run the backend test suite.
 
 ## 15.2 ML and pipeline tests
 
-- [ ] **15.2.1 [ANTIGRAVITY]** Add preprocessing tests.
-- [ ] **15.2.2 [ANTIGRAVITY]** Add model architecture tests.
-- [ ] **15.2.3 [ANTIGRAVITY]** Add evaluation metric tests.
-- [ ] **15.2.4 [ANTIGRAVITY]** Add threshold evaluation tests.
-- [ ] **15.2.5 [ANTIGRAVITY]** Add Grad-CAM tests.
-- [ ] **15.2.6 [ANTIGRAVITY]** Add drift detection tests.
-- [ ] **15.2.7 [ANTIGRAVITY]** Add quality-gate tests.
-- [ ] **15.2.8 [ANTIGRAVITY]** Add Airflow DAG validation tests.
-- [ ] **15.2.9 [ANTIGRAVITY]** Run the ML and pipeline test suites.
+- [x] **15.2.1 [ANTIGRAVITY]** Add preprocessing tests.
+- [x] **15.2.2 [ANTIGRAVITY]** Add model architecture tests.
+- [x] **15.2.3 [ANTIGRAVITY]** Add evaluation metric tests.
+- [x] **15.2.4 [ANTIGRAVITY]** Add threshold evaluation tests.
+- [x] **15.2.5 [ANTIGRAVITY]** Add Grad-CAM tests.
+- [x] **15.2.6 [ANTIGRAVITY]** Add drift detection tests.
+- [x] **15.2.7 [ANTIGRAVITY]** Add quality-gate tests.
+- [x] **15.2.8 [ANTIGRAVITY]** Add Airflow DAG validation tests.
+- [x] **15.2.9 [ANTIGRAVITY]** Run the ML and pipeline test suites.
 
 ## 15.3 Frontend tests
 
-- [ ] **15.3.1 [ANTIGRAVITY]** Configure the frontend test environment.
-- [ ] **15.3.2 [ANTIGRAVITY]** Add shared component tests.
-- [ ] **15.3.3 [ANTIGRAVITY]** Add API client tests.
-- [ ] **15.3.4 [ANTIGRAVITY]** Add inspection workflow tests.
-- [ ] **15.3.5 [ANTIGRAVITY]** Add dashboard empty-state tests.
-- [ ] **15.3.6 [ANTIGRAVITY]** Add dashboard error-state tests.
-- [ ] **15.3.7 [ANTIGRAVITY]** Run frontend tests.
+- [x] **15.3.1 [ANTIGRAVITY]** Configure the frontend test environment.
+- [x] **15.3.2 [ANTIGRAVITY]** Add shared component tests.
+- [x] **15.3.3 [ANTIGRAVITY]** Add API client tests.
+- [x] **15.3.4 [ANTIGRAVITY]** Add inspection workflow tests.
+- [x] **15.3.5 [ANTIGRAVITY]** Add dashboard empty-state tests.
+- [x] **15.3.6 [ANTIGRAVITY]** Add dashboard error-state tests.
+- [x] **15.3.7 [ANTIGRAVITY]** Run frontend tests.
 
 ## 15.4 End-to-end tests
 
-- [ ] **15.4.1 [ANTIGRAVITY]** Configure Playwright.
-- [ ] **15.4.2 [ANTIGRAVITY]** Add application navigation tests.
-- [ ] **15.4.3 [ANTIGRAVITY]** Add image-upload tests.
-- [ ] **15.4.4 [ANTIGRAVITY]** Add prediction-result tests.
-- [ ] **15.4.5 [ANTIGRAVITY]** Add Grad-CAM display tests.
-- [ ] **15.4.6 [ANTIGRAVITY]** Add model-registry page tests.
-- [ ] **15.4.7 [ANTIGRAVITY]** Add retraining workflow interface tests.
-- [ ] **15.4.8 [BOTH]** Run end-to-end tests against the local environment.
+- [x] **15.4.1 [ANTIGRAVITY]** Configure Playwright.
+- [x] **15.4.2 [ANTIGRAVITY]** Add application navigation tests.
+- [x] **15.4.3 [ANTIGRAVITY]** Add image-upload tests.
+- [x] **15.4.4 [ANTIGRAVITY]** Add prediction-result tests.
+- [x] **15.4.5 [ANTIGRAVITY]** Add Grad-CAM display tests.
+- [x] **15.4.6 [ANTIGRAVITY]** Add model-registry page tests.
+- [x] **15.4.7 [ANTIGRAVITY]** Add retraining workflow interface tests.
+- [x] **15.4.8 [BOTH]** Run end-to-end tests against the local environment.
 
 ## 15.5 GitHub Actions
 
-- [ ] **15.5.1 [MANUAL]** Confirm GitHub repository access.
-- [ ] **15.5.2 [ANTIGRAVITY]** Create the GitHub Actions workflow directory.
-- [ ] **15.5.3 [ANTIGRAVITY]** Create the backend CI workflow.
-- [ ] **15.5.4 [ANTIGRAVITY]** Add Python dependency installation to CI.
-- [ ] **15.5.5 [ANTIGRAVITY]** Add Ruff linting to CI.
-- [ ] **15.5.6 [ANTIGRAVITY]** Add backend tests to CI.
-- [ ] **15.5.7 [ANTIGRAVITY]** Add ML unit tests to CI.
-- [ ] **15.5.8 [ANTIGRAVITY]** Add Airflow DAG validation to CI.
-- [ ] **15.5.9 [ANTIGRAVITY]** Create the frontend CI workflow.
-- [ ] **15.5.10 [ANTIGRAVITY]** Add frontend linting to CI.
-- [ ] **15.5.11 [ANTIGRAVITY]** Add TypeScript checks to CI.
+- [x] **15.5.1 [MANUAL]** Confirm GitHub repository access.
+- [x] **15.5.2 [ANTIGRAVITY]** Create the GitHub Actions workflow directory.
+- [x] **15.5.3 [ANTIGRAVITY]** Create the backend CI workflow.
+- [x] **15.5.4 [ANTIGRAVITY]** Add Python dependency installation to CI.
+- [x] **15.5.5 [ANTIGRAVITY]** Add Ruff linting to CI.
+- [x] **15.5.6 [ANTIGRAVITY]** Add backend tests to CI.
+- [x] **15.5.7 [ANTIGRAVITY]** Add ML unit tests to CI.
+- [x] **15.5.8 [ANTIGRAVITY]** Add Airflow DAG validation to CI.
+- [x] **15.5.9 [ANTIGRAVITY]** Create the frontend CI workflow.
+- [x] **15.5.10 [ANTIGRAVITY]** Add frontend linting to CI.
+- [x] **15.5.11 [ANTIGRAVITY]** Add TypeScript checks to CI.
 - [ ] **15.5.12 [ANTIGRAVITY]** Add frontend tests to CI.
 - [ ] **15.5.13 [ANTIGRAVITY]** Add frontend production build validation to CI.
 - [ ] **15.5.14 [ANTIGRAVITY]** Add Docker image build validation to CI.

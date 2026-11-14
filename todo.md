@@ -82,14 +82,14 @@ AWS is an optional extension. It is not required for the local academic demonstr
 - [x] **0.2.5 [MANUAL]** Install Node.js LTS compatible with Next.js 16.
 - [x] **0.2.6 [MANUAL]** Verify Node.js is available.
 - [x] **0.2.7 [MANUAL]** Verify npm is available.
-- [ ] **0.2.8 [MANUAL]** Install Docker Desktop.
+- [x] **0.2.8 [MANUAL]** Install Docker Desktop.
 - [ ] **0.2.9 [MANUAL]** Enable the required Docker virtualization or WSL 2 configuration.
 - [ ] **0.2.10 [MANUAL]** Start Docker Desktop.
 - [ ] **0.2.11 [MANUAL]** Verify Docker CLI access.
 - [ ] **0.2.12 [MANUAL]** Verify Docker Compose is available.
 - [x] **0.2.13 [MANUAL]** Install VS Code or confirm the existing editor is ready.
 - [x] **0.2.14 [MANUAL]** Install Antigravity and verify it can open the repository.
-- [ ] **0.2.15 [MANUAL]** Create or confirm the GitHub account and repository access.
+- [x] **0.2.15 [MANUAL]** Create or confirm the GitHub account and repository access.
 
 **Verification:** Python, Node.js, npm, Git, Docker, Docker Compose and Antigravity are accessible.
 
@@ -108,8 +108,8 @@ AWS is an optional extension. It is not required for the local academic demonstr
 - [x] **0.3.11 [ANTIGRAVITY]** Create the initial root `todo.md` using this plan.
 - [x] **0.3.12 [MANUAL]** Configure Git username and email.
 - [x] **0.3.13 [MANUAL]** Create the initial Git commit.
-- [ ] **0.3.14 [MANUAL]** Push the initial commit to GitHub.
-- [ ] **0.3.15 [MANUAL]** Confirm the repository is visible on GitHub.
+- [x] **0.3.14 [MANUAL]** Push the initial commit to GitHub.
+- [x] **0.3.15 [MANUAL]** Confirm the repository is visible on GitHub.
 
 **Verification:** The repository has a successful initial commit and a clean working tree.
 

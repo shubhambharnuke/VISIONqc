@@ -326,30 +326,30 @@ These values must be checked against the actual downloaded dataset.
 
 ## 5.1 Implement Grad-CAM
 
-- [ ] **5.1.1 [ANTIGRAVITY]** Create `ml/explainability/gradcam.py`.
-- [ ] **5.1.2 [ANTIGRAVITY]** Identify the target feature layer for the custom CNN.
-- [ ] **5.1.3 [ANTIGRAVITY]** Implement Grad-CAM for the custom CNN.
-- [ ] **5.1.4 [ANTIGRAVITY]** Identify the target feature layer for ResNet18.
-- [ ] **5.1.5 [ANTIGRAVITY]** Implement Grad-CAM for ResNet18.
-- [ ] **5.1.6 [ANTIGRAVITY]** Identify the target feature layer for EfficientNet-B0.
-- [ ] **5.1.7 [ANTIGRAVITY]** Implement Grad-CAM for EfficientNet-B0.
-- [ ] **5.1.8 [ANTIGRAVITY]** Implement original-image output.
-- [ ] **5.1.9 [ANTIGRAVITY]** Implement heatmap output.
-- [ ] **5.1.10 [ANTIGRAVITY]** Implement overlay output.
-- [ ] **5.1.11 [ANTIGRAVITY]** Add Grad-CAM tests for every supported architecture.
-- [ ] **5.1.12 [BOTH]** Inspect generated explanations using real dataset images.
+- [x] **5.1.1 [ANTIGRAVITY]** Create `ml/explainability/gradcam.py`.
+- [x] **5.1.2 [ANTIGRAVITY]** Identify the target feature layer for the custom CNN.
+- [x] **5.1.3 [ANTIGRAVITY]** Implement Grad-CAM for the custom CNN.
+- [x] **5.1.4 [ANTIGRAVITY]** Identify the target feature layer for ResNet18.
+- [x] **5.1.5 [ANTIGRAVITY]** Implement Grad-CAM for ResNet18.
+- [x] **5.1.6 [ANTIGRAVITY]** Identify the target feature layer for EfficientNet-B0.
+- [x] **5.1.7 [ANTIGRAVITY]** Implement Grad-CAM for EfficientNet-B0.
+- [x] **5.1.8 [ANTIGRAVITY]** Implement original-image output.
+- [x] **5.1.9 [ANTIGRAVITY]** Implement heatmap output.
+- [x] **5.1.10 [ANTIGRAVITY]** Implement overlay output.
+- [x] **5.1.11 [ANTIGRAVITY]** Add Grad-CAM tests for every supported architecture.
+- [x] **5.1.12 [BOTH]** Inspect generated explanations using real dataset images.
 
 ## 5.2 Prepare model artifacts
 
-- [ ] **5.2.1 [ANTIGRAVITY]** Define a standard model artifact directory structure.
-- [ ] **5.2.2 [ANTIGRAVITY]** Save model weights separately from source code.
-- [ ] **5.2.3 [ANTIGRAVITY]** Save model architecture metadata.
-- [ ] **5.2.4 [ANTIGRAVITY]** Save preprocessing metadata.
-- [ ] **5.2.5 [ANTIGRAVITY]** Save the classification threshold.
-- [ ] **5.2.6 [ANTIGRAVITY]** Save evaluation metrics.
-- [ ] **5.2.7 [ANTIGRAVITY]** Save the dataset version reference.
-- [ ] **5.2.8 [ANTIGRAVITY]** Implement model artifact integrity checks.
-- [ ] **5.2.9 [ANTIGRAVITY]** Document how to load a model artifact.
+- [x] **5.2.1 [ANTIGRAVITY]** Define a standard model artifact directory structure.
+- [x] **5.2.2 [ANTIGRAVITY]** Save model weights separately from source code.
+- [x] **5.2.3 [ANTIGRAVITY]** Save model architecture metadata.
+- [x] **5.2.4 [ANTIGRAVITY]** Save preprocessing metadata.
+- [x] **5.2.5 [ANTIGRAVITY]** Save the classification threshold.
+- [x] **5.2.6 [ANTIGRAVITY]** Save evaluation metrics.
+- [x] **5.2.7 [ANTIGRAVITY]** Save the dataset version reference.
+- [x] **5.2.8 [ANTIGRAVITY]** Implement model artifact integrity checks.
+- [x] **5.2.9 [ANTIGRAVITY]** Document how to load a model artifact.
 
 **Verification:** A saved model can be loaded with its original preprocessing settings, threshold and metadata.
 

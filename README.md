@@ -123,5 +123,19 @@ A trained model candidate must satisfy all strict manufacturing thresholds to be
 
 ---
 
+## 5-Minute Demonstration Walkthrough
+
+For academic evaluations, reviews, and stakeholder presentations, follow the step-by-step walkthrough detailed in [docs/demo-script.md](docs/demo-script.md):
+
+1. **Architecture & Scope (0:00 - 0:45):** Industrial casting defect classification on submersible pump impellers.
+2. **Inspection Workbench (0:45 - 1:45):** Live upload & inference on `http://localhost:3000/inspection` displaying instant defect classification and confidence.
+3. **Explainability with Grad-CAM (1:45 - 2:30):** Switching view modes (Raw, Heatmap, Overlay) highlighting pinholes, cracks, and casting voids.
+4. **MLflow Model Governance (2:30 - 3:15):** Comparing Custom CNN, ResNet-18, and EfficientNet-B0 metrics, validating why EfficientNet-B0 was promoted.
+5. **Observability & Dashboards (3:15 - 3:50):** Inspecting Prometheus `/metrics` and Grafana dashboards for throughput and P95 latency.
+6. **Feature Drift & Retraining (3:50 - 4:30):** Running Kolmogorov-Smirnov test on extracted image features and triggering quality-gated Airflow DAG retraining.
+7. **Summary & Delivery (4:30 - 5:00):** Validating end-to-end reproducibility with DVC and CI/CD pipelines.
+
+---
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

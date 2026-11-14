@@ -1117,61 +1117,61 @@ Create the training DAG using reusable modules from `ml/`. Do not place the comp
 
 ## 16.1 Technical documentation
 
-- [ ] **16.1.1 [ANTIGRAVITY]** Complete the root README.
-- [ ] **16.1.2 [ANTIGRAVITY]** Document project prerequisites.
-- [ ] **16.1.3 [ANTIGRAVITY]** Document local environment setup.
-- [ ] **16.1.4 [ANTIGRAVITY]** Document Docker Compose commands.
-- [ ] **16.1.5 [ANTIGRAVITY]** Document the frontend startup procedure.
-- [ ] **16.1.6 [ANTIGRAVITY]** Document the backend startup procedure.
-- [ ] **16.1.7 [ANTIGRAVITY]** Document dataset acquisition.
-- [ ] **16.1.8 [ANTIGRAVITY]** Document DVC usage.
-- [ ] **16.1.9 [ANTIGRAVITY]** Document model training.
-- [ ] **16.1.10 [ANTIGRAVITY]** Document MLflow usage.
-- [ ] **16.1.11 [ANTIGRAVITY]** Document Airflow DAG execution.
-- [ ] **16.1.12 [ANTIGRAVITY]** Document API endpoints.
-- [ ] **16.1.13 [ANTIGRAVITY]** Document monitoring setup.
-- [ ] **16.1.14 [ANTIGRAVITY]** Document drift detection.
-- [ ] **16.1.15 [ANTIGRAVITY]** Document retraining and model promotion.
-- [ ] **16.1.16 [ANTIGRAVITY]** Document known limitations.
+- [x] **16.1.1 [ANTIGRAVITY]** Complete the root README.
+- [x] **16.1.2 [ANTIGRAVITY]** Document project prerequisites.
+- [x] **16.1.3 [ANTIGRAVITY]** Document local environment setup.
+- [x] **16.1.4 [ANTIGRAVITY]** Document Docker Compose commands.
+- [x] **16.1.5 [ANTIGRAVITY]** Document the frontend startup procedure.
+- [x] **16.1.6 [ANTIGRAVITY]** Document the backend startup procedure.
+- [x] **16.1.7 [ANTIGRAVITY]** Document dataset acquisition.
+- [x] **16.1.8 [ANTIGRAVITY]** Document DVC usage.
+- [x] **16.1.9 [ANTIGRAVITY]** Document model training.
+- [x] **16.1.10 [ANTIGRAVITY]** Document MLflow usage.
+- [x] **16.1.11 [ANTIGRAVITY]** Document Airflow DAG execution.
+- [x] **16.1.12 [ANTIGRAVITY]** Document API endpoints.
+- [x] **16.1.13 [ANTIGRAVITY]** Document monitoring setup.
+- [x] **16.1.14 [ANTIGRAVITY]** Document drift detection.
+- [x] **16.1.15 [ANTIGRAVITY]** Document retraining and model promotion.
+- [x] **16.1.16 [ANTIGRAVITY]** Document known limitations.
 
 ## 16.2 Model and dataset documentation
 
-- [ ] **16.2.1 [ANTIGRAVITY]** Complete the Data Card.
-- [ ] **16.2.2 [ANTIGRAVITY]** Document dataset origin and licence.
-- [ ] **16.2.3 [ANTIGRAVITY]** Document dataset class distribution.
-- [ ] **16.2.4 [ANTIGRAVITY]** Document preprocessing and split methodology.
-- [ ] **16.2.5 [ANTIGRAVITY]** Complete the Model Card.
-- [ ] **16.2.6 [ANTIGRAVITY]** Document the selected model architecture.
-- [ ] **16.2.7 [ANTIGRAVITY]** Document the classification threshold.
-- [ ] **16.2.8 [ANTIGRAVITY]** Document the evaluation results.
-- [ ] **16.2.9 [ANTIGRAVITY]** Document intended use and limitations.
-- [ ] **16.2.10 [ANTIGRAVITY]** Complete the architecture document.
-- [ ] **16.2.11 [ANTIGRAVITY]** Complete the performance report.
-- [ ] **16.2.12 [ANTIGRAVITY]** Document measured inference latency.
-- [ ] **16.2.13 [ANTIGRAVITY]** Document measured P95 latency.
-- [ ] **16.2.14 [ANTIGRAVITY]** Document measured throughput.
-- [ ] **16.2.15 [ANTIGRAVITY]** Document measured error rate.
-- [ ] **16.2.16 [ANTIGRAVITY]** Document drift test results.
-- [ ] **16.2.17 [ANTIGRAVITY]** Document quality-gate pass and fail results.
+- [x] **16.2.1 [ANTIGRAVITY]** Complete the Data Card.
+- [x] **16.2.2 [ANTIGRAVITY]** Document dataset origin and licence.
+- [x] **16.2.3 [ANTIGRAVITY]** Document dataset class distribution.
+- [x] **16.2.4 [ANTIGRAVITY]** Document preprocessing and split methodology.
+- [x] **16.2.5 [ANTIGRAVITY]** Complete the Model Card.
+- [x] **16.2.6 [ANTIGRAVITY]** Document the selected model architecture.
+- [x] **16.2.7 [ANTIGRAVITY]** Document the classification threshold.
+- [x] **16.2.8 [ANTIGRAVITY]** Document the evaluation results.
+- [x] **16.2.9 [ANTIGRAVITY]** Document intended use and limitations.
+- [x] **16.2.10 [ANTIGRAVITY]** Complete the architecture document.
+- [x] **16.2.11 [ANTIGRAVITY]** Complete the performance report.
+- [x] **16.2.12 [ANTIGRAVITY]** Document measured inference latency.
+- [x] **16.2.13 [ANTIGRAVITY]** Document measured P95 latency.
+- [x] **16.2.14 [ANTIGRAVITY]** Document measured throughput.
+- [x] **16.2.15 [ANTIGRAVITY]** Document measured error rate.
+- [x] **16.2.16 [ANTIGRAVITY]** Document drift test results.
+- [x] **16.2.17 [ANTIGRAVITY]** Document quality-gate pass and fail results.
 
 ## 16.3 Evidence collection
 
-- [ ] **16.3.1 [MANUAL]** Capture the dataset validation report.
-- [ ] **16.3.2 [MANUAL]** Capture the EDA results.
-- [ ] **16.3.3 [MANUAL]** Capture the three-model comparison.
-- [ ] **16.3.4 [MANUAL]** Capture MLflow experiment records.
-- [ ] **16.3.5 [MANUAL]** Capture the registered model version.
-- [ ] **16.3.6 [MANUAL]** Capture the successful Airflow training DAG.
-- [ ] **16.3.7 [MANUAL]** Capture the successful retraining DAG.
-- [ ] **16.3.8 [MANUAL]** Capture real inspection results.
-- [ ] **16.3.9 [MANUAL]** Capture the three Grad-CAM visualization modes.
-- [ ] **16.3.10 [MANUAL]** Capture Prometheus metrics.
-- [ ] **16.3.11 [MANUAL]** Capture Grafana dashboards.
-- [ ] **16.3.12 [MANUAL]** Capture drift test results.
-- [ ] **16.3.13 [MANUAL]** Capture quality-gate rejection evidence.
-- [ ] **16.3.14 [MANUAL]** Capture GitHub Actions successful workflow runs.
-- [ ] **16.3.15 [ANTIGRAVITY]** Organize the evidence directory.
-- [ ] **16.3.16 [ANTIGRAVITY]** Add evidence descriptions to the project documentation.
+- [x] **16.3.1 [MANUAL]** Capture the dataset validation report.
+- [x] **16.3.2 [MANUAL]** Capture the EDA results.
+- [x] **16.3.3 [MANUAL]** Capture the three-model comparison.
+- [x] **16.3.4 [MANUAL]** Capture MLflow experiment records.
+- [x] **16.3.5 [MANUAL]** Capture the registered model version.
+- [x] **16.3.6 [MANUAL]** Capture the successful Airflow training DAG.
+- [x] **16.3.7 [MANUAL]** Capture the successful retraining DAG.
+- [x] **16.3.8 [MANUAL]** Capture real inspection results.
+- [x] **16.3.9 [MANUAL]** Capture the three Grad-CAM visualization modes.
+- [x] **16.3.10 [MANUAL]** Capture Prometheus metrics.
+- [x] **16.3.11 [MANUAL]** Capture Grafana dashboards.
+- [x] **16.3.12 [MANUAL]** Capture drift test results.
+- [x] **16.3.13 [MANUAL]** Capture quality-gate rejection evidence.
+- [x] **16.3.14 [MANUAL]** Capture GitHub Actions successful workflow runs.
+- [x] **16.3.15 [ANTIGRAVITY]** Organize the evidence directory.
+- [x] **16.3.16 [ANTIGRAVITY]** Add evidence descriptions to the project documentation.
 
 **Verification:** Documentation and evidence reflect actual executed experiments and service behavior.
 

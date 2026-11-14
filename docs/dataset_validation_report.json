@@ -1,0 +1,23 @@
+{
+  "dataset_path": "ml\\data\\raw",
+  "total_images": 1300,
+  "classes": {
+    "ok": {
+      "count": 519,
+      "extensions": {
+        ".jpeg": 519
+      }
+    },
+    "defective": {
+      "count": 781,
+      "extensions": {
+        ".jpeg": 781
+      }
+    }
+  },
+  "corrupted_images": [],
+  "invalid_dimensions": [],
+  "invalid_modes": [],
+  "duplicates": [],
+  "is_valid": true
+}

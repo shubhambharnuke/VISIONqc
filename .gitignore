@@ -71,6 +71,7 @@ ml/data/split/*
 !ml/data/split/.gitkeep
 ml/data/augmented/*
 !ml/data/augmented/.gitkeep
+ml/casting_data/
 
 # Airflow local state
 airflow/logs/

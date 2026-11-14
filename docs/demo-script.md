@@ -24,5 +24,5 @@ This document details the live demonstration flow for the **VisionQC** platform,
 2. [ ] Confirm Backend is healthy: `curl http://localhost:8000/health`
 3. [ ] Confirm Frontend is reachable: `http://localhost:3000`
 4. [ ] Prepare sample casting images in an easily accessible folder:
-   - Sample OK image: `ml/casting_data/test/ok_front/cast_ok_0_1.jpeg`
-   - Sample Defective image: `ml/casting_data/test/def_front/cast_def_0_0.jpeg`
+   - Sample OK image: `ml/casting_data/casting_data/test/ok_front/cast_ok_0_1001.jpeg`
+   - Sample Defective image: `ml/casting_data/casting_data/test/def_front/cast_def_0_1059.jpeg`

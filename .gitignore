@@ -82,6 +82,9 @@ airflow/airflow.cfg
 # MLflow local store
 mlruns/
 mlartifacts/
+mlflow.db
+*.db
+static/
 
 # Testing & Coverage
 .coverage

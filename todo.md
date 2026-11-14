@@ -408,55 +408,55 @@ These values must be checked against the actual downloaded dataset.
 
 ## 7.1 Prepare Airflow
 
-- [ ] **7.1.1 [ANTIGRAVITY]** Create the `visionqc_airflow` database configuration.
-- [ ] **7.1.2 [ANTIGRAVITY]** Configure the selected Airflow release.
-- [ ] **7.1.3 [ANTIGRAVITY]** Configure the selected executor.
-- [ ] **7.1.4 [ANTIGRAVITY]** Configure the Airflow metadata database.
-- [ ] **7.1.5 [ANTIGRAVITY]** Configure persistent Airflow logs.
-- [ ] **7.1.6 [ANTIGRAVITY]** Configure the DAG directory.
-- [ ] **7.1.7 [ANTIGRAVITY]** Configure the required Airflow service processes for the selected release.
-- [ ] **7.1.8 [BOTH]** Start Airflow locally.
-- [ ] **7.1.9 [BOTH]** Open the Airflow UI.
-- [ ] **7.1.10 [BOTH]** Verify that the metadata database is healthy.
-- [ ] **7.1.11 [BOTH]** Verify that a simple test DAG executes successfully.
+- [x] **7.1.1 [ANTIGRAVITY]** Create the `visionqc_airflow` database configuration.
+- [x] **7.1.2 [ANTIGRAVITY]** Configure the selected Airflow release.
+- [x] **7.1.3 [ANTIGRAVITY]** Configure the selected executor.
+- [x] **7.1.4 [ANTIGRAVITY]** Configure the Airflow metadata database.
+- [x] **7.1.5 [ANTIGRAVITY]** Configure persistent Airflow logs.
+- [x] **7.1.6 [ANTIGRAVITY]** Configure the DAG directory.
+- [x] **7.1.7 [ANTIGRAVITY]** Configure the required Airflow service processes for the selected release.
+- [x] **7.1.8 [BOTH]** Start Airflow locally.
+- [x] **7.1.9 [BOTH]** Open the Airflow UI.
+- [x] **7.1.10 [BOTH]** Verify that the metadata database is healthy.
+- [x] **7.1.11 [BOTH]** Verify that a simple test DAG executes successfully.
 
 ## 7.2 Build the training DAG
 
 Create the training DAG using reusable modules from `ml/`. Do not place the complete training implementation inside the DAG file.
 
-- [ ] **7.2.1 [ANTIGRAVITY]** Create the training DAG file.
-- [ ] **7.2.2 [ANTIGRAVITY]** Add the dataset-ingestion task.
-- [ ] **7.2.3 [ANTIGRAVITY]** Add the dataset-validation task.
-- [ ] **7.2.4 [ANTIGRAVITY]** Add the preprocessing task.
-- [ ] **7.2.5 [ANTIGRAVITY]** Add the data-preparation task.
-- [ ] **7.2.6 [ANTIGRAVITY]** Add the feature-engineering task.
-- [ ] **7.2.7 [ANTIGRAVITY]** Add the model-training task.
-- [ ] **7.2.8 [ANTIGRAVITY]** Add the model-evaluation task.
-- [ ] **7.2.9 [ANTIGRAVITY]** Add the MLflow-logging task.
-- [ ] **7.2.10 [ANTIGRAVITY]** Add the model-comparison task.
-- [ ] **7.2.11 [ANTIGRAVITY]** Add the quality-gate task.
-- [ ] **7.2.12 [ANTIGRAVITY]** Add the model-registration task.
-- [ ] **7.2.13 [ANTIGRAVITY]** Define task dependencies.
-- [ ] **7.2.14 [ANTIGRAVITY]** Configure task retries and failure handling.
-- [ ] **7.2.15 [ANTIGRAVITY]** Add DAG validation tests.
-- [ ] **7.2.16 [BOTH]** Trigger the training DAG manually.
-- [ ] **7.2.17 [BOTH]** Inspect each task's execution result.
-- [ ] **7.2.18 [BOTH]** Verify that the resulting experiment appears in MLflow.
-- [ ] **7.2.19 [BOTH]** Verify that a model is registered only after the quality gate passes.
+- [x] **7.2.1 [ANTIGRAVITY]** Create the training DAG file.
+- [x] **7.2.2 [ANTIGRAVITY]** Add the dataset-ingestion task.
+- [x] **7.2.3 [ANTIGRAVITY]** Add the dataset-validation task.
+- [x] **7.2.4 [ANTIGRAVITY]** Add the preprocessing task.
+- [x] **7.2.5 [ANTIGRAVITY]** Add the data-preparation task.
+- [x] **7.2.6 [ANTIGRAVITY]** Add the feature-engineering task.
+- [x] **7.2.7 [ANTIGRAVITY]** Add the model-training task.
+- [x] **7.2.8 [ANTIGRAVITY]** Add the model-evaluation task.
+- [x] **7.2.9 [ANTIGRAVITY]** Add the MLflow-logging task.
+- [x] **7.2.10 [ANTIGRAVITY]** Add the model-comparison task.
+- [x] **7.2.11 [ANTIGRAVITY]** Add the quality-gate task.
+- [x] **7.2.12 [ANTIGRAVITY]** Add the model-registration task.
+- [x] **7.2.13 [ANTIGRAVITY]** Define task dependencies.
+- [x] **7.2.14 [ANTIGRAVITY]** Configure task retries and failure handling.
+- [x] **7.2.15 [ANTIGRAVITY]** Add DAG validation tests.
+- [x] **7.2.16 [BOTH]** Trigger the training DAG manually.
+- [x] **7.2.17 [BOTH]** Inspect each task's execution result.
+- [x] **7.2.18 [BOTH]** Verify that the resulting experiment appears in MLflow.
+- [x] **7.2.19 [BOTH]** Verify that a model is registered only after the quality gate passes.
 
 ## 7.3 Build the retraining DAG
 
-- [ ] **7.3.1 [ANTIGRAVITY]** Create the retraining DAG file.
-- [ ] **7.3.2 [ANTIGRAVITY]** Add a dataset-version input.
-- [ ] **7.3.3 [ANTIGRAVITY]** Reuse the shared preprocessing module.
-- [ ] **7.3.4 [ANTIGRAVITY]** Reuse the shared training module.
-- [ ] **7.3.5 [ANTIGRAVITY]** Reuse the shared evaluation module.
-- [ ] **7.3.6 [ANTIGRAVITY]** Reuse the shared quality-gate implementation.
-- [ ] **7.3.7 [ANTIGRAVITY]** Prevent automatic deployment when the quality gate fails.
-- [ ] **7.3.8 [ANTIGRAVITY]** Add retraining DAG tests.
-- [ ] **7.3.9 [BOTH]** Trigger a test retraining run.
-- [ ] **7.3.10 [BOTH]** Verify the run is visible in Airflow.
-- [ ] **7.3.11 [BOTH]** Verify the retraining result is visible in MLflow.
+- [x] **7.3.1 [ANTIGRAVITY]** Create the retraining DAG file.
+- [x] **7.3.2 [ANTIGRAVITY]** Add a dataset-version input.
+- [x] **7.3.3 [ANTIGRAVITY]** Reuse the shared preprocessing module.
+- [x] **7.3.4 [ANTIGRAVITY]** Reuse the shared training module.
+- [x] **7.3.5 [ANTIGRAVITY]** Reuse the shared evaluation module.
+- [x] **7.3.6 [ANTIGRAVITY]** Reuse the shared quality-gate implementation.
+- [x] **7.3.7 [ANTIGRAVITY]** Prevent automatic deployment when the quality gate fails.
+- [x] **7.3.8 [ANTIGRAVITY]** Add retraining DAG tests.
+- [x] **7.3.9 [BOTH]** Trigger a test retraining run.
+- [x] **7.3.10 [BOTH]** Verify the run is visible in Airflow.
+- [x] **7.3.11 [BOTH]** Verify the retraining result is visible in MLflow.
 
 **Verification:** Both DAGs execute successfully and preserve task-level history.
 
